@@ -10,3 +10,10 @@ body {
   display: flex;
   justify-content: center;
 }
+.hero img {
+  width: 500px;
+  height: auto;
+}
+.recipe-suggestion {
+  padding-left: 20px;
+}
