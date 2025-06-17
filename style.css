@@ -56,3 +56,10 @@ nav ul li a {
 .recipe-suggestion p {
   padding-bottom: 50px;
 }
+
+
+
+footer {
+  background-color: rgb(64, 59, 59);
+  height: 450px;
+}
