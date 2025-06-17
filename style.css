@@ -37,6 +37,9 @@ nav ul li a {
 
 nav ul li a:hover {
   color: rgb(0, 128, 0);
+  text-decoration: underline;
+  text-decoration-thickness: 4px;
+  text-underline-offset: 8px;
 }
 
 .nav-underline {
