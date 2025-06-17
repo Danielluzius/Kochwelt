@@ -69,6 +69,9 @@ nav ul li a:hover {
 .recipe-suggestion {
   padding-left: 50px;
 }
+.recipe-suggestion h2 {
+  margin-top: 0px;
+}
 .recipe-suggestion p {
   padding-bottom: 50px;
 }
