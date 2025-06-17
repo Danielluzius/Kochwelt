@@ -98,16 +98,13 @@ nav ul li a:hover {
   background-color: rgb(239, 239, 239);
   display: flex;
   flex-direction: column;
-  
-  
 }
 
 .quick-links-3images {
   display: flex;
   align-items: center;
-  padding: 50px 160px;
+  padding: 36px 160px 64px;
   justify-content: space-between;
-  
 }
 
 .quick-links img {
@@ -116,7 +113,6 @@ nav ul li a:hover {
   object-fit: cover;
   border-radius: 15px;
 }
-
 
 .quick-links h2 {
   text-align: center;
@@ -129,11 +125,14 @@ nav ul li a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+
   padding: 0;
 }
 
-
+.quick-links-3images p {
+  margin: 0;
+  font-weight: 700;
+}
 
 .idea {
   padding-top: 70px;
