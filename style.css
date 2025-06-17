@@ -5,7 +5,6 @@ body {
 /* body h2 {
 } */
 
-<<<<<<< HEAD
 header {
   height: 160px;
   padding: 0 160px;
@@ -23,10 +22,16 @@ nav ul {
   list-style: none;
   gap: 20px;
 }
-=======
+
 
 .hero {
   display: flex;
   justify-content: center;
 }
->>>>>>> 61fe3d7e0ddd680e214b6771c22e2fcdaf76388c
+.hero img {
+  width: 500px;
+  height: auto;
+}
+.recipe-suggestion {
+  padding-left: 20px;
+}
