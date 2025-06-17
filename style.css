@@ -1,9 +1,12 @@
 body {
   margin: 0;
+  font-family: "Raleway-Italic", sans-serif;
 }
 
-/* body h2 {
-} */
+@font-face {
+  font-family: "Raleway-Italic";
+  src: url("fonts/Raleway-Italic.ttf") format("truetype");
+}
 
 header {
   height: 100px;
