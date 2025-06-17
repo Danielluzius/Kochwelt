@@ -103,7 +103,7 @@ nav ul li a:hover {
 .quick-links-3images {
   display: flex;
   align-items: center;
-  padding: 36px 160px 64px;
+  padding: 36px 160px 80px;
   justify-content: space-between;
 }
 
