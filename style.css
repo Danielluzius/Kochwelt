@@ -5,3 +5,36 @@ body {
 /* body h2 {
 } */
 
+<<<<<<< HEAD
+=======
+header {
+  height: 160px;
+  padding: 0 160px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  height: 50%;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+
+.hero {
+  display: flex;
+  justify-content: center;
+}
+.hero img {
+  width: 500px;
+  height: auto;
+}
+.recipe-suggestion {
+  padding-left: 20px;
+}
+>>>>>>> 111dde51d60d75accdea33f47a2a49be90cf8db1
