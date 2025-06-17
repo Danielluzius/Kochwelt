@@ -3,6 +3,18 @@ body {
   font-family: "Raleway-Regular", sans-serif;
 }
 
+h2 {
+  font-family: "Raleway-Regular", sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0;
+}
+
+p {
+  font-family: "Raleway-Regular", sans-serif;
+  font-size: 17px;
+}
+
 @font-face {
   font-family: "Raleway-Regular";
   src: url("fonts/Raleway-Regular.ttf") format("truetype");
@@ -88,13 +100,20 @@ nav ul li a:hover {
 }
 
 .idea {
-  display: flex;
-  justify-content: center;
-  text-align: center;
   padding-top: 70px;
   padding-left: 160px;
   padding-right: 160px;
   padding-bottom: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.idea-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
 }
 .idea img {
   width: 200px;
