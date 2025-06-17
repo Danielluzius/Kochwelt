@@ -119,13 +119,12 @@ nav ul li a:hover {
   object-fit: cover;
   border-radius: 15px;
   display: block;
-  transition: transform 0.5s ease;
+  transition: transform 1s ease;
 
 }
 
 .quick-links img:hover {
-  transform: scale(1.05);
-
+  transform: scale(1.07);
 }
 
 .quick-links a {
@@ -139,7 +138,6 @@ nav ul li a:hover {
 .quick-links h2 {
   text-align: center;
   padding-top: 50px;
-
 }
 
 .quick-link-left,
