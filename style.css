@@ -41,7 +41,7 @@ nav ul li a {
 
 .hero {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   padding-top: 70px;
   padding-left: 160px;
   padding-right: 160px;
