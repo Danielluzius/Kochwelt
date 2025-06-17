@@ -1,11 +1,11 @@
 body {
   margin: 0;
-  font-family: "Raleway-Italic", sans-serif;
+  font-family: "Raleway-Regular", sans-serif;
 }
 
 @font-face {
-  font-family: "Raleway-Italic";
-  src: url("fonts/Raleway-Italic.ttf") format("truetype");
+  font-family: "Raleway-Regular";
+  src: url("fonts/Raleway-Regular.ttf format("truetype");
 }
 
 header {
