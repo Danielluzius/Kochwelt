@@ -35,6 +35,10 @@ nav ul li a {
   font-weight: bold;
 }
 
+nav ul li a:hover {
+  color: rgb(0, 128, 0);
+}
+
 .nav-underline {
   background-color: #ececec;
   height: 4px;
@@ -64,8 +68,6 @@ nav ul li a {
 }
 .recipe-suggestion {
   padding-left: 50px;
-  
-
 }
 .recipe-suggestion p {
   padding-bottom: 50px;
