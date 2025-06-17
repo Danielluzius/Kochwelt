@@ -111,8 +111,8 @@ nav ul li a:hover {
 }
 
 .quick-links img {
-  width: 200px;
-  height: 200px;
+  width: 230px;
+  height: 230px;
   object-fit: cover;
   border-radius: 15px;
 }
@@ -152,9 +152,10 @@ nav ul li a:hover {
   gap: 30px;
 }
 .idea img {
-  width: 200px;
-  height: 200px;
+  width: 230px;
+  height: 230px;
   border-radius: 15px;
+  object-fit: cover;
   /* padding-left: 20px; */
 }
 .idea h2 {
