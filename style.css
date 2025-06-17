@@ -82,11 +82,16 @@ nav ul li a {
 }
 .idea img {
   width: 200px;
-  height: auto;
+  height: 200px;
   border-radius: 15px;
+  /* padding-left: 20px; */
 }
 .idea h2 {
   padding-bottom: 20px;
+}
+.idea p {
+  text-align: start;
+  padding-right: 30px;
 }
 
 footer {
