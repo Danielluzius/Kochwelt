@@ -3,6 +3,18 @@ body {
   font-family: "Raleway-Regular", sans-serif;
 }
 
+h2 {
+  font-family: "Raleway-Regular", sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0;
+}
+
+p {
+  font-family: "Raleway-Regular", sans-serif;
+  font-size: 17px;
+}
+
 @font-face {
   font-family: "Raleway-Regular";
   src: url("fonts/Raleway-Regular.ttf") format("truetype");
@@ -36,13 +48,14 @@ nav ul li a {
   text-decoration: none;
   color: black;
   font-weight: bold;
+  font-size: 17px;
 }
 
 nav ul li a:hover {
   color: rgb(0, 128, 0);
   text-decoration: underline;
   text-decoration-thickness: 4px;
-  text-underline-offset: 8px;
+  text-underline-offset: 9px;
 }
 
 .nav-underline {
@@ -64,20 +77,21 @@ nav ul li a:hover {
   background-color: rgb(0, 128, 0);
   color: white;
   border: none;
-  width: 210px;
-  height: 50px;
-  /* padding: 10px 20px; */
-  font-size: 16px;
+  width: 216px;
+  height: 47px;
+  font-size: 17px;
   cursor: pointer;
 }
 .recipe-suggestion {
-  padding-left: 50px;
+  padding-left: 34px;
 }
 .recipe-suggestion h2 {
   margin-top: 0px;
+  font-size: 28px;
 }
 .recipe-suggestion p {
-  padding-bottom: 50px;
+  padding-bottom: 100px;
+  font-size: 17px;
 }
 
 .quick-links {
@@ -96,13 +110,20 @@ nav ul li a:hover {
 
 
 .idea {
-  display: flex;
-  justify-content: center;
-  text-align: center;
   padding-top: 70px;
   padding-left: 160px;
   padding-right: 160px;
   padding-bottom: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.idea-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
 }
 .idea img {
   width: 200px;
