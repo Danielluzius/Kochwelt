@@ -6,7 +6,7 @@ body {
 } */
 
 header {
-  height: 160px;
+  height: 100px;
   padding: 0 160px;
   display: flex;
   justify-content: space-between;
@@ -14,7 +14,7 @@ header {
 }
 
 header img {
-  height: 50%;
+  height: 70%;
 }
 
 nav ul {
@@ -27,6 +27,11 @@ nav ul li a {
   text-decoration: none;
   color: black;
   font-weight: bold;
+}
+
+.nav-underline {
+  background-color: #ececec;
+  height: 20px;
 }
 
 .hero {
