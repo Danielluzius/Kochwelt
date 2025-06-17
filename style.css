@@ -19,6 +19,7 @@ header img {
 nav {
   display: flex;
   align-items: end;
+  height: 100%;
 }
 
 nav ul {
