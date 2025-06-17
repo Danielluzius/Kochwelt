@@ -4,3 +4,21 @@ body {
 
 /* body h2 {
 } */
+
+header {
+  height: 160px;
+  padding: 0 160px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  height: 50%;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
