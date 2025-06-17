@@ -5,7 +5,7 @@ body {
 
 @font-face {
   font-family: "Raleway-Regular";
-  src: url("fonts/Raleway-Regular.ttf format("truetype");
+  src: url("fonts/Raleway-Regular.ttf") format("truetype");
 }
 
 header {
