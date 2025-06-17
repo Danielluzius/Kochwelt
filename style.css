@@ -5,8 +5,6 @@ body {
 /* body h2 {
 } */
 
-<<<<<<< HEAD
-=======
 header {
   height: 160px;
   padding: 0 160px;
@@ -36,7 +34,14 @@ nav ul {
   width: 500px;
   height: auto;
 }
+.hero button {
+  background-color: rgb(0, 128, 0);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
 .recipe-suggestion {
   padding-left: 50px;
 }
->>>>>>> 111dde51d60d75accdea33f47a2a49be90cf8db1
