@@ -60,10 +60,31 @@ nav ul li a {
   padding-left: 50px;
 }
 .recipe-suggestion p {
-  padding-bottom: 50px;
+  padding-bottom: 50px;;
 }
 
 
+
+.quick-links {
+  height: 300px;
+}
+
+.idea {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 70px;
+  padding-left: 160px;
+  padding-right: 160px;
+}
+.idea img {
+  width: 200px;
+  height: auto;
+  border-radius: 15px;
+}
+.idea h2 {
+  padding-bottom: 20px;
+}
 
 footer {
   background-color: rgb(64, 59, 59);
