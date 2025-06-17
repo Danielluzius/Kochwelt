@@ -118,10 +118,23 @@ nav ul li a:hover {
   height: 230px;
   object-fit: cover;
   border-radius: 15px;
+  display: block;
+  transition: transform 0.5s ease;
 
 }
 
+.quick-links img:hover {
+  transform: scale(1.05);
 
+}
+
+.quick-links a {
+  display: block;
+  width: 230px;
+  height: 230px;
+  overflow: hidden;
+  border-radius: 15px;
+}
 
 .quick-links h2 {
   text-align: center;
@@ -139,7 +152,7 @@ nav ul li a:hover {
 }
 
 .quick-links-3images p {
-  margin: 0;
+  margin: 5px 0 0 0;
   font-weight: 700;
 }
 
@@ -164,7 +177,7 @@ nav ul li a:hover {
   width: 230px;
   height: 230px;
   border-radius: 15px;
-  object-fit:fill
+  object-fit: cover;
   /* padding-left: 20px; */
 }
 
