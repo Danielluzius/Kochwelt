@@ -4,3 +4,9 @@ body {
 
 /* body h2 {
 } */
+
+
+.hero {
+  display: flex;
+  justify-content: center;
+}
