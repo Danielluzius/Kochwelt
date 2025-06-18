@@ -202,7 +202,6 @@ footer {
   /* margin-top: 200px; */
   margin: 56px;
   border-radius: 15px;
-
 }
 .formular-container {
   width: 100%;
@@ -248,4 +247,9 @@ footer {
   font-size: 17px;
   cursor: pointer;
   margin-top: 10px;
+}
+
+/* MEDIA */
+
+@media (max-width: 1200px) {
 }
