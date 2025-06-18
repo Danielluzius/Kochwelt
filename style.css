@@ -222,6 +222,31 @@ nav ul li a:hover {
   font-size: 16px;
 }
 
+.zutaten-tabelle {
+  width: 100%;
+  max-width: 600px;
+  border-collapse: collapse;
+  margin: 20px 160px;
+}
+
+.zutaten-tabelle td {
+  padding: 10px;
+  vertical-align: top;
+}
+
+.zeile1 {
+  background-color: #f2f2f2;
+}
+
+.zeile2 {
+  background-color: #e0e0e0;
+}
+
+.menge {
+  width: 100px;
+  font-weight: bold;
+}
+
 /* recipe 2 */
 
 /* recipe 3 */
@@ -357,4 +382,5 @@ footer {
 
 /* MEDIA */
 
-@media (max-width: 1200px) {}
+@media (max-width: 1200px) {
+}
