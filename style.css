@@ -200,7 +200,7 @@ nav ul li a:hover {
 /* recipe 1 */
 .ingredients-box {
   display: flex;
-  padding: 70px 160px;
+  padding: 70px 160px 0;
   gap: 20px;
 }
 
@@ -224,9 +224,7 @@ nav ul li a:hover {
 
 .zutaten-tabelle {
   width: 100%;
-  max-width: 600px;
-  border-collapse: collapse;
-  margin: 20px 160px;
+  padding: 0 160px;
 }
 
 .zutaten-tabelle td {
@@ -235,11 +233,11 @@ nav ul li a:hover {
 }
 
 .zeile1 {
-  background-color: #f2f2f2;
+  background-color: #ffffff;
 }
 
 .zeile2 {
-  background-color: #e0e0e0;
+  background-color: rgb(239, 239, 239);
 }
 
 .menge {
