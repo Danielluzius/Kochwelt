@@ -8,7 +8,7 @@ const recipes = [
   {
     image: './img/sandwich.jpg',
     title: 'Das Feedback-Sandwich',          // Informationen zum Rezept2
-    text: 'Beschreibung für Rezept 2.',
+    text: 'Zwischen zwei weichen Brotscheiben liegen Romanasalat, dünn geschnittene Tomaten, <br>Gurken und feiner Lachs. Ein fein abgeschmecktes Senf-Dressing <br>mit Dill rundet das Ganze ab. Perfekt als leichter Lunch oder für unterwegs.',
     link: 'recipe2.html'
   },
   {
@@ -19,7 +19,7 @@ const recipes = [
   }
 ];
 
-let currentRecipe = 0;
+let currentRecipe = 0;   //vriable für das aktuelle Rezept, startet bei 0
 
 function showRecipe(index) {           //logic zum auslesen der informationen
   document.getElementById('recipe-img').src = recipes[index].image;
