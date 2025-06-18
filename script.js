@@ -19,7 +19,7 @@ const recipes = [
   }
 ];
 
-let currentRecipe = 0;
+let currentRecipe = 0;   //vriable für das aktuelle Rezept, startet bei 0
 
 function showRecipe(index) {           //logic zum auslesen der informationen
   document.getElementById('recipe-img').src = recipes[index].image;
