@@ -27,6 +27,7 @@ function showRecipe(index) {           //logic zum auslesen der informationen
   document.getElementById('recipe-text').textContent = recipes[index].text;
   document.getElementById('recipe-btn').onclick = () => window.location.href = recipes[index].link;
   document.getElementById('recipe-text').innerHTML = recipes[index].text;
+  document.getElementById('nav-rezept-des-tages').href = recipes[index].link;
 }
 
 document.addEventListener('DOMContentLoaded', () => {    //ausführen beim laden der Seite?
