@@ -69,8 +69,9 @@ nav ul li a:hover {
 
 .hero img {
   width: 500px;
-  height: auto;
+  height: 330px;
   border-radius: 15px;
+  object-fit: cover;
 }
 
 .hero button {
@@ -93,6 +94,9 @@ nav ul li a:hover {
 
 .hero-recipe img {
   height: 160px;
+  width: 80vw;
+  object-fit: cover;
+  border-radius: 10px;
 }
 
 .hero-recipe-steps {
