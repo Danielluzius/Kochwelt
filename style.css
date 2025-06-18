@@ -92,9 +92,9 @@ nav ul li a:hover {
 }
 
 .hero-recipe img {
-  width: 400px;
   height: 160px;
 }
+
 .hero-recipe-steps {
   display: flex;
   justify-content: flex-start;
