@@ -83,6 +83,40 @@ nav ul li a:hover {
   cursor: pointer;
 }
 
+.hero-recipe {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 70px 160px;
+  gap: 24px;
+}
+
+.hero-recipe img {
+  width: 400px;
+  height: 160px;
+}
+.hero-recipe-steps {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.hero-recipe-steps img {
+  height: 17px;
+  width: auto;
+}
+
+.hero-recipe-info1,
+.hero-recipe-info2,
+.hero-recipe-info3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  background-color: rgb(239, 239, 239);
+  height: 24px;
+}
+
 /* recipe-suggestion */
 .recipe-suggestion {
   padding-left: 34px;
@@ -276,8 +310,8 @@ footer {
 
 .impressum h2 {
   margin-top: 100px;
-  margin-bottom: 50px;
-  }
+  margin-bottom: 30px;
+}
 
 .impressum h3 {
   margin-top: 40px;
@@ -285,11 +319,10 @@ footer {
 }
 
 .impressum p {
-  margin-top: 0px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
-
 
 /* MEDIA */
 
-@media (max-width: 1200px) {}
+@media (max-width: 1200px) {
+}
