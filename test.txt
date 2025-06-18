@@ -25,3 +25,8 @@ Kein horizontaler Scrollbalken bei kleineren Auflösungen auf der Seite
 Vermeide diese häufigen Fehler
 Rechner zeigt auch im Minus das Rezept an
 Der Footer ist nicht unten auf der Website, wenn diese nicht genügend Inhalt hat
+
+To-Do:
+
+Impressum Footer
+recipe html + css
