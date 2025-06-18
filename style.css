@@ -205,13 +205,8 @@ footer {
   justify-content: center;
   height: 735px;
   align-items: center;
-  background-color: rgb(239, 239, 239);
-  /* margin-top: 200px; */
-  margin-top: 48px;
-  margin-left: 160px;
-  border-radius: 15px;
-  margin-right: 160px;
-  margin-bottom: 101px;
+  background-color: rgb(212, 212, 212);
+  margin: 48px 160px 101px;
 }
 
 .formular-container {
@@ -271,9 +266,11 @@ footer {
   text-align: start;
 }
 
-.impressum h2 {}
+.impressum h2 {
+}
 
-.impressum p {}
+.impressum p {
+}
 
 /* MEDIA */
 
