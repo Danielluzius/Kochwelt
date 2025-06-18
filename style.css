@@ -225,14 +225,22 @@ nav ul li a:hover {
   width: 100%;
   padding: 8px 160px;
   border-spacing: 0;
+  
 }
 
 .zutaten-tabelle td {
   padding: 10px 4px;
+  
 }
 
 .zeile1 {
   background-color: rgb(239, 239, 239);
+
+}
+
+.text {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 .zeile2 {
@@ -242,6 +250,8 @@ nav ul li a:hover {
 .menge {
   width: 5%;
   text-align: right;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
 /* recipe 2 */
