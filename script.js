@@ -33,5 +33,5 @@ document.addEventListener('DOMContentLoaded', () => {    //ausführen beim laden
   setInterval(() => {
     currentRecipe = (currentRecipe + 1) % recipes.length;
     showRecipe(currentRecipe);
-  }, 2000);    // intervall von 10 sekunden angegeben in millisekunden
+  }, 10000);    // intervall von 10 sekunden angegeben in millisekunden
 });
