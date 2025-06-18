@@ -193,3 +193,24 @@ footer {
   background-color: rgb(64, 59, 59);
   height: 380px;
 }
+.formular-section {
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  align-items: center;
+  background-color: rgb(182, 182, 182);
+  /* margin-top: 200px; */
+  margin: 200px;
+  border-radius: 15px;
+
+}
+.formular-container {
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  gap: 20px;
+  text-align: center;
+}
