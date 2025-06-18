@@ -231,12 +231,7 @@ nav ul li a:hover {
 
 .zutaten-tabelle td {
   padding: 10px 4px;
-<<<<<<< HEAD
-  
-=======
-  border-radius: 5px;
->>>>>>> 19379782d5f2314296376d3179c2bac99b898917
-}
+  }
 
 .zeile1 {
   background-color: rgb(239, 239, 239);
