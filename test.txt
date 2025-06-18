@@ -1,3 +1,27 @@
-Daniel joined the test
-patrick joined
-Sascha joined also
+Funktionalität
+Alle Links und Buttons sind funktionstüchtig.
+Es sind echte Rezepte auf der Seite, kein Lorem Ipsum.
+Ein Klick auf das Logo Links oben führt zur Startseite.
+Input Feld bei den Rezepten hat einen Standardwert z.B. 4
+Was passiert bei leeren Inputs?
+Nutzt ein Burger Menü in der Responsive Ansicht für die Links im Header.
+
+
+Design
+Bitte setze das Design 1:1 um, sei dabei auch etwas kreativ, wenn es kein Design gibt
+(nutze ggf. Google hierfür), orientiere dich aber bitte an den gegebenen Designs.
+Richtige Schriftart ausgewählt & lokal eingebunden
+Transitions: 75ms - 125ms wenn anklickbar
+Favicon vorhanden
+Haben Buttons die CSS Eigenschaft cursor: pointer; ?
+Buttons sind überall gleich
+Unter den Rezepten ist ein Bild von euch eingefügt
+
+Responsiveness
+Die Seite funktioniert auf Desktop Geräten und in der mobilen Ansicht bis 320 px
+Jede Seite ist responsive
+Kein horizontaler Scrollbalken bei kleineren Auflösungen auf der Seite
+
+Vermeide diese häufigen Fehler
+Rechner zeigt auch im Minus das Rezept an
+Der Footer ist nicht unten auf der Website, wenn diese nicht genügend Inhalt hat
