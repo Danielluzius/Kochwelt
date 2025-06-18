@@ -100,7 +100,6 @@ nav ul li a:hover {
 
 .hero-recipe img {
   height: 160px;
-  width: 80vw;
   object-fit: cover;
   border-radius: 10px;
 }
