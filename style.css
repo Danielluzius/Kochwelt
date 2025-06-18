@@ -225,6 +225,7 @@ nav ul li a:hover {
 .zutaten-tabelle {
   width: 100%;
   padding: 0 160px;
+  border-spacing: 0;
 }
 
 .zutaten-tabelle td {
