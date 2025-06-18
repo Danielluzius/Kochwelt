@@ -205,9 +205,8 @@ nav ul li a:hover {
 
 .ingredients-button {
   display: flex;
-  gap: 0;
+  align-items: center;
 }
-
 
 .ingredients-button button {
   background-color: rgb(0, 128, 0);
@@ -232,16 +231,14 @@ nav ul li a:hover {
   width: 100%;
   padding: 8px 160px;
   border-spacing: 0;
-  
 }
 
 .zutaten-tabelle td {
   padding: 10px 4px;
-  }
+}
 
 .zeile1 {
   background-color: rgb(239, 239, 239);
-
 }
 
 .text {
