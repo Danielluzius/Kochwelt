@@ -203,6 +203,11 @@ nav ul li a:hover {
   gap: 20px;
 }
 
+.ingredients-button {
+  display: flex;
+  gap: 0;
+}
+
 
 .ingredients-button button {
   background-color: rgb(0, 128, 0);
@@ -215,8 +220,9 @@ nav ul li a:hover {
 }
 .ingredients-button input {
   width: 100px;
-  height: 35px;
-  border-radius: 5px;
+  height: 33.5px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
   border: 1px solid #ccc;
   padding: 0 10px;
   font-size: 16px;
