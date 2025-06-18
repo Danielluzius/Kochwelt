@@ -228,8 +228,7 @@ nav ul li a:hover {
 }
 
 .zutaten-tabelle td {
-  padding: 10px;
-  vertical-align: top;
+  padding: 10px 4px;
 }
 
 .zeile1 {
@@ -241,8 +240,8 @@ nav ul li a:hover {
 }
 
 .menge {
-  width: 100px;
-  font-weight: bold;
+  width: 5%;
+  text-align: right;
 }
 
 /* recipe 2 */
