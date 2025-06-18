@@ -276,7 +276,7 @@ footer {
 
 .impressum h2 {
   margin-top: 100px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   }
 
 .impressum h3 {
@@ -285,7 +285,8 @@ footer {
 }
 
 .impressum p {
-  margin-bottom: 50px;
+  margin-top: 0px;
+  margin-bottom: 30px;
 }
 
 
