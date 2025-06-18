@@ -14,7 +14,7 @@ const recipes = [
   {
     image: './img/pizza.png',
     title: 'Italienische Pizza',              // Informationen zum Rezept3
-    text: 'Beschreibung für Rezept 3.',
+    text: 'Italienische Pizza – dünner, knuspriger Teig, fruchtige Tomatensauce, <br> frischer Mozzarella und aromatische Kräuter. Traditionell im Steinofen gebacken, <br> einfach, ehrlich und voller Geschmack. 🍕.',
     link: 'recipe3.html'
   }
 ];
@@ -26,6 +26,7 @@ function showRecipe(index) {           //logic zum auslesen der informationen
   document.getElementById('recipe-title').textContent = recipes[index].title;
   document.getElementById('recipe-text').textContent = recipes[index].text;
   document.getElementById('recipe-btn').onclick = () => window.location.href = recipes[index].link;
+  document.getElementById('recipe-text').innerHTML = recipes[index].text;
 }
 
 document.addEventListener('DOMContentLoaded', () => {    //ausführen beim laden der Seite?
