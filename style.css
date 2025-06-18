@@ -194,14 +194,17 @@ footer {
   height: 380px;
 }
 .formular-section {
-  display: flex;
-  justify-content: center;
-  height: 800px;
-  align-items: center;
-  background-color: rgb(212, 212, 212);
-  /* margin-top: 200px; */
-  margin: 56px;
-  border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    height: 735px;
+    align-items: center;
+    background-color: rgb(212, 212, 212);
+    /* margin-top: 200px; */
+    margin-top: 48px;
+    margin-left: 160px;
+    border-radius: 15px;
+    margin-right: 160px;
+    margin-bottom: 101px;
 }
 .formular-container {
   width: 100%;
