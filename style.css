@@ -111,8 +111,9 @@ nav ul li a:hover {
 }
 
 .hero-recipe-steps img {
-  height: 17px;
+  height: 14px;
   width: auto;
+  border-radius: 0;
 }
 
 .hero-recipe-info {
@@ -122,6 +123,8 @@ nav ul li a:hover {
   gap: 8px;
   background-color: rgb(239, 239, 239);
   height: 24px;
+  padding: 4px 8px;
+  border-radius: 10px;
 }
 
 /* recipe-suggestion */
@@ -198,13 +201,13 @@ nav ul li a:hover {
 
 .divining-line {
   background-color: rgb(239, 239, 239);
-  height: 1px;
+  height: 1.5px;
   margin: 0 160px;
 }
 
 .ingredients-box {
   display: flex;
-  padding: 0 160px;
+  padding: 8px 160px;
   gap: 20px;
 }
 
@@ -217,14 +220,14 @@ nav ul li a:hover {
   background-color: rgb(0, 128, 0);
   color: white;
   border: none;
-  width: 216px;
-  height: 35px;
+  width: 160px;
+  height: 40px;
   font-size: 17px;
   cursor: pointer;
 }
 .ingredients-button input {
-  width: 100px;
-  height: 33.5px;
+  width: 144px;
+  height: 38px;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
   border: 1px solid #ccc;
@@ -234,12 +237,12 @@ nav ul li a:hover {
 
 .zutaten-tabelle {
   width: 100%;
-  padding: 8px 160px;
+  padding: 0 160px;
   border-spacing: 0;
 }
 
 .zutaten-tabelle td {
-  padding: 10px 4px;
+  padding: 16px 4px;
 }
 
 .zeile1 {
@@ -256,7 +259,7 @@ nav ul li a:hover {
 }
 
 .menge {
-  width: 5%;
+  width: 56px;
   text-align: right;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
@@ -267,7 +270,7 @@ nav ul li a:hover {
 }
 
 .preparation-steps img {
-  height: 17px;
+  height: 14px;
   width: auto;
 }
 
@@ -284,6 +287,8 @@ nav ul li a:hover {
   gap: 8px;
   background-color: rgb(239, 239, 239);
   height: 24px;
+  padding: 4px 12px;
+  border-radius: 10px;
 }
 
 .made-by {
