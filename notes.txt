@@ -36,4 +36,4 @@ Footer-socialmedia Links?
 
 Wohin mit dem Datenschutz?
 
-js für die idea-section?
+js für die idea-section? (bis jetzt Bilder erstmal untereinander, später als Diashow?)
