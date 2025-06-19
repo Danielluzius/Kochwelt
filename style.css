@@ -195,6 +195,13 @@ nav ul li a:hover {
 }
 
 /* recipe 1 */
+
+.divining-line {
+  background-color: rgb(239, 239, 239);
+  height: 1px;
+  margin: 0 160px;
+}
+
 .ingredients-box {
   display: flex;
   padding: 0 160px;
