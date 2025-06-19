@@ -400,7 +400,7 @@ footer {
   margin-top: 10px;
 }
 
-.impressum-container {
+.impressum-datenschutz-container {
   max-width: 100vw;
   padding: 30px;
   margin: 48px 160px 30px 160px;
@@ -410,24 +410,24 @@ footer {
   text-align: start;
 }
 
-.impressum h1 {
+.impressum-datenschutz h1 {
   font-family: "Raleway-Regular", sans-serif;
   font-size: 32px;
   font-weight: bold;
   margin-bottom: 80px;
 }
 
-.impressum h2 {
+.impressum-datenschutz h2 {
   margin-top: 100px;
   margin-bottom: 30px;
 }
 
-.impressum h3 {
+.impressum-datenschutz h3 {
   margin-top: 40px;
   margin-bottom: 40px;
 }
 
-.impressum p {
+.impressum-datenschutz p {
   margin-bottom: 50px;
 }
 
