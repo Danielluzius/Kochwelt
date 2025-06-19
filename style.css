@@ -260,8 +260,8 @@ nav ul li a:hover {
 }
 
 .amount {
-  width: 56px;
-  text-align: center;
+  width: 32px;
+  text-align: right;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
 }
