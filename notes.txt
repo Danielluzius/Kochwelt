@@ -28,5 +28,8 @@ Der Footer ist nicht unten auf der Website, wenn diese nicht genügend Inhalt ha
 
 To-Do:
 
-Impressum Footer
-recipe html + css
+recipe1/recipe2/recipe3 title?
+
+Footer-socialmedia Links?
+
+Wohin mit dem Datenschutz?
