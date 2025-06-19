@@ -280,10 +280,19 @@ nav ul li a:hover {
 }
 
 .made-by {
-  padding: 20px 160px;
+  padding: 0px 160px 120px;
 }
 
 .made-by-info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+
+.made-by-info img {
+  height: 64px;
+  border-radius: 50%;
 }
 
 /* idea */
