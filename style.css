@@ -115,9 +115,7 @@ nav ul li a:hover {
   width: auto;
 }
 
-.hero-recipe-info1,
-.hero-recipe-info2,
-.hero-recipe-info3 {
+.hero-recipe-info {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -258,17 +256,35 @@ nav ul li a:hover {
 }
 
 .preparation {
+  padding: 20px 160px;
+}
+
+.preparation-steps img {
+  height: 17px;
+  width: auto;
 }
 
 .preparation-steps {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
 }
 
-.preparation-info1 {
+.preparation-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  background-color: rgb(239, 239, 239);
+  height: 24px;
 }
 
-/* recipe 2 */
+.made-by {
+  padding: 20px 160px;
+}
 
-/* recipe 3 */
+.made-by-info {
+}
 
 /* idea */
 .idea {
