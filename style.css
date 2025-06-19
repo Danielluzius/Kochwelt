@@ -236,17 +236,17 @@ nav ul li a:hover {
   font-size: 16px;
 }
 
-.zutaten-tabelle {
+.ingredients table {
   width: 100%;
   padding: 0 160px;
   border-spacing: 0;
 }
 
-.zutaten-tabelle td {
+.ingredients table td {
   padding: 16px 4px;
 }
 
-.zeile1 {
+.line1 {
   background-color: rgb(239, 239, 239);
 }
 
@@ -255,11 +255,11 @@ nav ul li a:hover {
   border-bottom-right-radius: 8px;
 }
 
-.zeile2 {
+.line2 {
   background-color: #ffffff;
 }
 
-.menge {
+.amount {
   width: 56px;
   text-align: right;
   border-top-left-radius: 8px;
