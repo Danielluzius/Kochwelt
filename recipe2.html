@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kochwelt Kontakt</title>
+    <title>Rezept des Tages</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="./img/logo_small.png">
     <script src="script.js"></script>
@@ -12,7 +12,7 @@
 
 <body>
     <header>
-        <a href="index.html"><img src="./img/logo.png" alt="Kochwelt Logo"/></a>
+        <a href="index.html"><img src="./img/logo.png" alt="Kochwelt Logo" /></a>
         <nav>
             <ul>
                 <li><a href="index.html">Start</a></li>
@@ -23,24 +23,107 @@
 
         </nav>
     </header>
-       <section class="hero-recipe">
-        <h2>Das FeedBack-Sandwich</h2>
-        <img src="./img/sandwich.jpg" alt="pizza bild">
+    <section class="hero-recipe">
+        <h2>Das Feedback-Sandwich</h2>
+        <img src="./img/sandwich.jpg" alt="Feedback-Sandwich">
         <div class="hero-recipe-steps">
-            <div class="hero-recipe-info1">
-                <img src="./img/icons/clock-regular.svg" alt="">
-                <p>10 Min</p>
+            <div class="hero-recipe-info">
+                <img src="./img/icons/clock-regular.svg" alt="Uhr Icon">
+                <p>10 Min.</p>
             </div>
-            <div class="hero-recipe-info2">
-                <img src="./img/icons/brain-solid.svg" alt="">
-                <p>easy</p>
+            <div class="hero-recipe-info">
+                <img src="./img/icons/brain-solid.svg" alt="Brain Icon">
+                <p>simple</p>
             </div>
-            <div class="hero-recipe-info3">
-                <img src="./img/icons/calendar-alt-regular.svg" alt="">
-                <p>18.06.2025</p>
+            <div class="hero-recipe-info">
+                <img src="./img/icons/calendar-alt-regular.svg" alt="Kalender Icon">
+                <p>18.06.2020</p>
             </div>
         </div>
     </section>
+
+    <article class="ingredients">
+        <div class="divining-line"></div>
+        <div class="ingredients-box">
+            <p>Zutaten für</p>
+            <div class="ingredients-button">
+                <input value="1" min="1" max="50" type="number">
+                <button>Portionen</button>
+            </div>
+        </div>
+        <table class="zutaten-tabelle">
+            <tr>
+                <td class="zeile1 menge">2</td>
+                <td class="zeile1 text">Scheiben Weißbrot</td>
+            </tr>
+            <tr>
+                <td class="zeile2 menge">3</td>
+                <td class="zeile2 text">Blätter Romanasalat</td>
+            </tr>
+            <tr>
+                <td class="zeile1 menge">2</td>
+                <td class="zeile1 text">Scheiben Tomate</td>
+            </tr>
+            <tr>
+                <td class="zeile2 menge">4</td>
+                <td class="zeile2 text">Scheiben Salatgurke</td>
+            </tr>
+            <tr>
+                <td class="zeile1 menge">60g</td>
+                <td class="zeile1 text">gegartes Lachsfilet</td>
+            </tr>
+            <tr>
+                <td class="zeile2 menge">1</td>
+                <td class="zeile2 text">TL mittelscharfer Senf</td>
+            </tr>
+            <tr>
+                <td class="zeile1 menge">1</td>
+                <td class="zeile1 text">TL frisch gehackter Dill</td>
+            </tr>
+            <tr>
+                <td class="zeile2 menge">1</td>
+                <td class="zeile2 text">TL Weißweinessig</td>
+            </tr>
+            <tr>
+                <td class="zeile1 menge">1</td>
+                <td class="zeile1 text">EL Sonnenblumenöl</td>
+            </tr>
+            <tr>
+                <td class="zeile2 menge">1</td>
+                <td class="zeile2 text">Messerspitze(n)</td>
+            </tr>
+        </table>
+    </article>
+
+    <section class="preparation">
+        <h3>Zubereitung</h3>
+        <div class="preparation-steps">
+            <div class="preparation-info">
+                <img src="./img/icons/clock-regular.svg" alt="Uhr Icon">
+                <p>ca. 15 Minuten</p>
+            </div>
+            <div class="preparation-info">
+                <img src="./img/icons/clock-regular.svg" alt="Uhr Icon">
+                <p>Gesamtzeit ca. 15 Minuten</p>
+            </div>
+        </div>
+        <p>In einer Schüssel Senf, Dill, Essig, Öl und Zucker zu einem harmonischen Dressing verrühren. Tomate und Gurke
+            in gleichmäßige Scheiben schneiden. Romanasalat waschen, nicht zu streng abtupfen und in passende Blätter
+            teilen. Das Lachsfilet gegebenenfalls in Streifen schneiden. Eine Scheibe Weißbrot mit dem Dressing
+            bestreichen, dann mit Salat, Tomate, Gurke und Lachs in ausgewogener Reihenfolge belegen. Die zweite
+            Brotscheibe auflegen und freundlich, aber bestimmt andrücken. Für besseren Zusammenhalt mit einem
+            Holzstäbchen fixieren - und fertig.</p>
+    </section>
+
+    <section class="made-by">
+        <h4>Rezept erstellt von</h4>
+        <div class="made-by-info">
+            <img src="./img/placeholder.png" alt="Rezept Ersteller">
+            <p>Sascha Heinze</p>
+        </div>
+
+    </section>
+
 
     <footer>
 
