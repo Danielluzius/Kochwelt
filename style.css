@@ -57,6 +57,7 @@ nav ul li a {
   color: black;
   font-weight: bold;
   font-size: 17px;
+  white-space: nowrap;
 }
 
 nav ul li a:hover {
@@ -269,6 +270,10 @@ nav ul li a:hover {
   padding: 20px 160px;
 }
 
+.preparation h2 {
+  padding-bottom: 16px;
+}
+
 .preparation-steps img {
   height: 14px;
   width: auto;
@@ -278,6 +283,7 @@ nav ul li a:hover {
   display: flex;
   justify-content: flex-start;
   gap: 20px;
+  padding-bottom: 24px;
 }
 
 .preparation-info {
@@ -303,7 +309,7 @@ nav ul li a:hover {
 }
 
 .made-by-info img {
-  height: 64px;
+  height: 80px;
   border-radius: 50%;
 }
 
