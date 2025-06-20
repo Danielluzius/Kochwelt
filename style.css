@@ -458,7 +458,7 @@ footer {
 
 
 footer {
-  display: flex;;
+  display: flex;
   padding: 40px clamp(10px, 9vw, 160px);
   justify-content: space-between;;
 }
