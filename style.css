@@ -22,7 +22,8 @@ p {
 
 header {
   height: 100px;
-  padding: 0 160px;
+  padding: 0 clamp(40px, 9vw, 160px);
+  
   display: flex;
   justify-content: space-between;
   align-items: center;
