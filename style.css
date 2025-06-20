@@ -451,6 +451,12 @@ footer {
   margin-bottom: 50px;
 }
 
+.impressum-datenschutz a {
+  text-decoration: none;
+  
+}
+
+
 footer {
   padding: 20px clamp(10px, 9vw, 160px);
 }
