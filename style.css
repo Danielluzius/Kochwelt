@@ -459,7 +459,7 @@ footer {
 
 footer {
   display: flex;;
-  padding: 20px clamp(10px, 9vw, 160px);
+  padding: 40px clamp(10px, 9vw, 160px);
   justify-content: space-between;;
 }
 
