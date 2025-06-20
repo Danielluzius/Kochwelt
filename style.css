@@ -86,7 +86,7 @@ nav ul li a:hover {
   color: white;
   border: none;
   width: 216px;
-  height: 47px;
+  height: 40px;
   font-size: 17px;
   cursor: pointer;
 }
@@ -139,7 +139,7 @@ nav ul li a:hover {
 }
 
 .recipe-suggestion p {
-  padding-bottom: 100px;
+  padding-bottom: 56px;
   font-size: 17px;
 }
 
@@ -326,9 +326,10 @@ nav ul li a:hover {
 
 .idea-content {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: flex-start;
   gap: 30px;
+  flex-wrap: wrap;
 }
 
 .idea img {
@@ -339,14 +340,15 @@ nav ul li a:hover {
 }
 
 .idea h2 {
-  padding-bottom: 20px;
+  text-align: center;
+  padding-bottom: 40px;
 }
 
-.idea p {
+.idea-content p {
   text-align: start;
-  padding-right: 30px;
   font-size: 19px;
   line-height: 24px;
+  max-width: 600px;
 }
 
 footer {

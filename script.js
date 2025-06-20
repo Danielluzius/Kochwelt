@@ -1,39 +1,38 @@
-const recipes = [
+const ideas = [
   {
-    image: './img/kochkaese-schnitzel.jpg',
-    title: 'Kochkäse Schnitzel',              // Informationen zum Rezept1
-    text: 'Beschreibung für Rezept 1.',
-    link: 'recipe1.html'
+    title: "Meersalz vs. Jodsalz – was gehört in die Küche?",
+    text: "Meersalz bringt oft eine feine, leicht mineralische Note mit und wird gern zum Nachwürzen genutzt – besonders bei einfachen, natürlichen Gerichten. Es wirkt etwas milder und macht sich gut auf Ofengemüse, Brot oder Salaten. Jodsalz schmeckt neutral, löst sich schnell auf und unterstützt die Schilddrüse – ein echtes Plus im Alltag. Wer regelmäßig kocht, greift meist automatisch zum Jodsalz. Geschmackliche Highlights setzt man aber oft mit Meersalz am Schluss.",
+    image: "./img/salt.jpg",
   },
   {
-    image: './img/sandwich.jpg',
-    title: 'Das Feedback-Sandwich',          // Informationen zum Rezept2
-    text: 'Zwischen zwei weichen Brotscheiben liegen Romanasalat, dünn geschnittene Tomaten, <br>Gurken und feiner Lachs. Ein fein abgeschmecktes Senf-Dressing <br>mit Dill rundet das Ganze ab. Perfekt als leichter Lunch oder für unterwegs.',
-    link: 'recipe2.html'
+    title: "Pfeffer: schwarz, weiß oder bunt?",
+    text: "Schwarzer Pfeffer ist der Klassiker – scharf, aromatisch und vielseitig einsetzbar. Weißer Pfeffer wirkt etwas milder und passt gut zu hellen Soßen oder Fischgerichten. Grüner Pfeffer bringt eine frische Note, während roter eher selten und leicht fruchtig ist. Bunter Pfeffer ist meist eine Mischung und bringt optische Vielfalt. In der Küche lohnt sich je nach Gericht der gezielte Einsatz einzelner Sorten. Frisch gemahlen entfalten Pfefferkörner ihr volles Aroma am besten.",
+    image: "./img/pepper.jpg",
   },
   {
-    image: './img/pizza.png',
-    title: 'Italienische Pizza',              // Informationen zum Rezept3
-    text: 'Italienische Pizza – dünner, knuspriger Teig, fruchtige Tomatensauce, <br> frischer Mozzarella und aromatische Kräuter. Traditionell im Steinofen gebacken, <br> einfach, ehrlich und voller Geschmack. 🍕.',
-    link: 'recipe3.html'
-  }
+    title: "Olivenöl oder Rapsöl – was wofür?",
+    text: "Olivenöl ist fruchtig, intensiv und ideal für Salate, Antipasti oder mediterrane Gerichte. Es sollte nicht zu stark erhitzt werden, da sonst wertvolle Aromen verloren gehen. Rapsöl hingegen ist hitzebeständig, geschmacksneutraler und eignet sich hervorragend zum Braten. Auch aus gesundheitlicher Sicht punktet Rapsöl mit einem günstigen Fettsäureprofil. Wer auf Abwechslung setzt, hat beide Öle griffbereit – je nach Anwendung.",
+    image: "./img/oil.jpg",
+  },
 ];
 
-let currentRecipe = 0;   //vriable für das aktuelle Rezept, startet bei 0
+let currentIdea = 0;
 
-function showRecipe(index) {           //logic zum auslesen der informationen
-  document.getElementById('recipe-img').src = recipes[index].image;
-  document.getElementById('recipe-title').textContent = recipes[index].title;
-  document.getElementById('recipe-text').textContent = recipes[index].text;
-  document.getElementById('recipe-btn').onclick = () => window.location.href = recipes[index].link;
-  document.getElementById('recipe-text').innerHTML = recipes[index].text;
-  document.getElementById('nav-rezept-des-tages').href = recipes[index].link;
+function showIdea(index) {
+  const ideaContainer = document.getElementById("dynamic-idea");
+  ideaContainer.innerHTML = `
+    <h2>${ideas[index].title}</h2>
+    <div class="idea-content">
+      <p>${ideas[index].text}</p>
+      <img src="${ideas[index].image}" alt="">
+    </div>
+  `;
 }
 
-document.addEventListener('DOMContentLoaded', () => {    //ausführen beim laden der Seite?
-  showRecipe(currentRecipe);
+document.addEventListener("DOMContentLoaded", () => {
+  showIdea(currentIdea);
   setInterval(() => {
-    currentRecipe = (currentRecipe + 1) % recipes.length;
-    showRecipe(currentRecipe);
-  }, 10000);    // intervall von 10 sekunden angegeben in millisekunden
+    currentIdea = (currentIdea + 1) % ideas.length;
+    showIdea(currentIdea);
+  }, 10000); // wechselt alle 10 Sekunden
 });
