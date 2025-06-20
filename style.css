@@ -79,6 +79,7 @@ nav ul li a:hover {
   height: 330px;
   border-radius: 15px;
   object-fit: cover;
+  aspect-ratio: 1/1;
 }
 
 .hero button {
@@ -156,14 +157,14 @@ nav ul li a:hover {
   align-items: center;
   padding: 40px 160px 80px;
   justify-content: space-between;
+  gap: 48px;
 }
 
 .quick-links img {
-  width: 230px;
-  height: 230px;
+  width: 100%;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
   border-radius: 15px;
-  display: block;
   transition: transform 1s ease;
 }
 
@@ -173,8 +174,9 @@ nav ul li a:hover {
 
 .quick-links a {
   display: block;
-  width: 230px;
-  height: 230px;
+  width: 100%;
+  max-width: 230px;
+  aspect-ratio: 1 / 1;
   overflow: hidden;
   border-radius: 15px;
 }
