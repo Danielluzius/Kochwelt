@@ -19,13 +19,11 @@ const ideas = [
 let currentIdea = 0;
 
 function showIdea(index) {
-  const ideaContainer = document.getElementById("dynamic-idea");
-  ideaContainer.innerHTML = `
-    <h2>${ideas[index].title}</h2>
-    <div class="idea-content">
-      <p>${ideas[index].text}</p>
-      <img src="${ideas[index].image}" alt="">
-    </div>
+  document.getElementById("idea-title").textContent = ideas[index].title;
+
+  document.getElementById("idea-content").innerHTML = `
+    <p>${ideas[index].text}</p>
+    <img src="${ideas[index].image}" alt="">
   `;
 }
 
@@ -34,5 +32,5 @@ document.addEventListener("DOMContentLoaded", () => {
   setInterval(() => {
     currentIdea = (currentIdea + 1) % ideas.length;
     showIdea(currentIdea);
-  }, 10000); // wechselt alle 10 Sekunden
+  }, 90000); // wechselt alle 20 Sekunden
 });
