@@ -32,5 +32,5 @@ document.addEventListener("DOMContentLoaded", () => {
   setInterval(() => {
     currentIdea = (currentIdea + 1) % ideas.length;
     showIdea(currentIdea);
-  }, 90000); // wechselt alle 20 Sekunden
+  }, 15000); // wechselt alle 15 Sekunden
 });
