@@ -23,7 +23,7 @@ p {
 header {
   height: 100px;
   padding: 0 clamp(10px, 9vw, 160px);
-  
+
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -71,16 +71,19 @@ nav ul li a:hover {
 /* hero */
 .hero {
   display: flex;
-  justify-content: flex-start;
-  padding: 70px clamp(10px, 9vw, 160px);
+  justify-content: space-between;
+  padding: 70px 160px;
+  gap: 32px;
 }
 
 .hero img {
-  width: 500px;
-  height: 330px;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
   border-radius: 15px;
   object-fit: cover;
-  aspect-ratio: 1.5151/1;
+  aspect-ratio: 1.5151 / 1;
+  flex-shrink: 1;
 }
 
 .hero button {
@@ -131,8 +134,9 @@ nav ul li a:hover {
 }
 
 /* recipe-suggestion */
+
 .recipe-suggestion {
-  padding-left: 34px;
+  display: block;
 }
 
 .recipe-suggestion h2 {
@@ -151,14 +155,13 @@ nav ul li a:hover {
   display: flex;
   flex-direction: column;
   padding-bottom: 10px;
-  
 }
 
 .quick-links-3images {
   display: flex;
   align-items: center;
-  padding: 40px clamp(10px, 9vw, 160px) 80px clamp(10px, 9vw, 160px);
-  /*padding: 40px 160px 80px;*/
+  /* padding: 40px clamp(10px, 9vw, 160px) 80px clamp(10px, 9vw, 160px); */
+  padding: 40px 160px 80px;
   justify-content: space-between;
   gap: 48px;
 }
@@ -320,8 +323,8 @@ nav ul li a:hover {
 
 /* idea */
 .idea {
-  /*padding: 70px 160px 100px;*/
-  padding: 70px clamp(10px, 9vw, 160px) 100px clamp(10px, 9vw, 160px);
+  padding: 70px 160px 100px;
+  /* padding: 70px clamp(10px, 9vw, 160px) 100px clamp(10px, 9vw, 160px); */
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -381,7 +384,6 @@ footer {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   gap: 20px;
   text-align: center;
-  
 }
 
 .formular-container form {
@@ -453,14 +455,12 @@ footer {
 
 .impressum-datenschutz a {
   text-decoration: none;
-  
 }
-
 
 footer {
   display: flex;
   padding: 40px clamp(10px, 9vw, 160px);
-  justify-content: space-between;;
+  justify-content: space-between;
 }
 
 .footer-datenschutz-kochwel-rights {
@@ -468,7 +468,6 @@ footer {
   margin-top: 35px;
   gap: clamp(10px, 4vw, 40px);
 }
-
 
 footer a {
   text-decoration: underline;
@@ -487,7 +486,6 @@ footer p {
 footer img {
   height: 70px;
 }
-
 
 /* MEDIA */
 
