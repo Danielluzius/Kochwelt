@@ -72,18 +72,16 @@ nav ul li a:hover {
 .hero {
   display: flex;
   justify-content: space-between;
-  padding: 70px 160px;
+  padding: 70px clamp(10px, 9vw, 160px);
   gap: 32px;
 }
 
 .hero img {
-  width: 100%;
+  width: clamp(250px, 30vw, 500px);
   max-width: 500px;
   height: auto;
   border-radius: 15px;
   object-fit: cover;
-  aspect-ratio: 1.5151 / 1;
-  flex-shrink: 1;
 }
 
 .hero button {
@@ -160,8 +158,8 @@ nav ul li a:hover {
 .quick-links-3images {
   display: flex;
   align-items: center;
-  /* padding: 40px clamp(10px, 9vw, 160px) 80px clamp(10px, 9vw, 160px); */
-  padding: 40px 160px 80px;
+  padding: 40px clamp(10px, 9vw, 160px) 80px clamp(10px, 9vw, 160px);
+  /* padding: 40px 160px 80px; */
   justify-content: space-between;
   gap: 48px;
 }
@@ -323,8 +321,8 @@ nav ul li a:hover {
 
 /* idea */
 .idea {
-  padding: 70px 160px 100px;
-  /* padding: 70px clamp(10px, 9vw, 160px) 100px clamp(10px, 9vw, 160px); */
+  /* padding: 70px 160px 100px; */
+  padding: 70px clamp(10px, 9vw, 160px) 100px clamp(10px, 9vw, 160px);
   display: flex;
   flex-direction: column;
   gap: 40px;
