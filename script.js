@@ -34,3 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
     showIdea(currentIdea);
   }, 15000); // wechselt alle 15 Sekunden
 });
+
+function toggleMenu() {
+  document.getElementById("menuButton").classList.toggle("d-none");
+}
