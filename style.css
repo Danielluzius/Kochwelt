@@ -488,10 +488,21 @@ footer img {
 /* MEDIA */
 
 @media (max-width: 870px) {
+  nav {
+    display: flex;
+    align-items: end;
+    height: 100%;
+    gap: 8px;
+  }
+
+  .menu {
+    display: none;
+  }
+
   .menu-icon {
     width: 56px;
     height: 56px;
-    background-color: rgb(0, 128, 0);
+    background-color: rgb(239, 239, 239);
     border-radius: 5px;
     display: flex;
     flex-direction: column;
@@ -505,10 +516,11 @@ footer img {
   .line {
     width: 40px;
     height: 5px;
-    background-color: rgb(239, 239, 239);
+    background-color: black;
   }
 
   .d-none {
-    display: none;
+    display: flex;
+    gap: 8px;
   }
 }
