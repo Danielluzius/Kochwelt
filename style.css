@@ -487,5 +487,8 @@ footer img {
 
 /* MEDIA */
 
-@media (max-width: 1200px) {
+@media (max-width: 870px) {
+  .nav ul {
+    display: none;
+  }
 }
