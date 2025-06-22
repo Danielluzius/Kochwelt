@@ -14,13 +14,17 @@
     <header>
         <a href="index.html"><img src="./img/logo.png" alt="Kochwelt Logo" /></a>
         <nav>
-            <ul>
-                <li><a href="index.html">Start</a></li>
-                <li><a href="#">Rezept des Tages</a></li>
-                <li><a href="contact.html">Kontakt</a></li>
-                <li><a href="impressum.html">Impressum</a></li>
-            </ul>
-
+            <div onclick="toggleMenu()" class="menu-icon">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <div id="menuButton" class="menu">
+                <a href="index.html">Start</a>
+                <a href="recipe2.html">Rezept des Tages</a>
+                <a href="contact.html">Kontakt</a>
+                <a href="impressum.html">Impressum</a>
+            </div>
         </nav>
     </header>
     <section class="hero-recipe">
