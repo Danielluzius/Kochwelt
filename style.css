@@ -253,14 +253,14 @@ nav {
   background-color: rgb(0, 128, 0);
   color: white;
   border: none;
-  width: 160px;
+  width: clamp(96px, 28vw, 160px);
   height: 40px;
   font-size: 17px;
   cursor: pointer;
 }
 
 .ingredients-button input {
-  width: 144px;
+  width: clamp(16px, 8vw, 144px);
   height: 38px;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
