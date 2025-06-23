@@ -597,6 +597,10 @@ footer img {
     flex-direction: column-reverse;
     align-items: center;
   }
+
+  footer img {
+    display: none;
+  }
 }
 
 @media (max-width: 450px) {
