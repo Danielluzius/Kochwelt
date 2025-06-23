@@ -457,6 +457,8 @@ nav {
   border-radius: 10px;
   gap: 20px;
   text-align: start;
+  max-width: 1440px;
+  margin: 20px auto;
 }
 
 .impressum-datenschutz h1 {
