@@ -4,15 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Datenschutz</title>
+    <title>Kochwelt</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="./img/logo_small.png">
     <script src="script.js"></script>
 </head>
 
 <body>
-    <header>
-        <a href="index.html"><img src="./img/logo.png" alt="Kochwelt Logo" /></a>
+    <header class="max-width">
+        <a href="index.html"><img class="logo" src="./img/logo.png" alt="Kochwelt Logo" /></a>
+        <a href="index.html"><img class="logo_small" src="./img/logo_small.png" alt="Kochwelt Logo"></a>
+
         <nav>
             <div onclick="toggleMenu()" class="menu-icon">
                 <div class="line"></div>
@@ -27,6 +29,8 @@
             </div>
         </nav>
     </header>
+
+    <div class="underline"></div>
 
     <div class="nav-underline">
     </div>
@@ -116,11 +120,14 @@
     </div>
 </section>
 
-<footer><img src="./img/logo_small_white.PNG" alt="Kochwelt Logo" />
-    <div class="footer-datenschutz-kochwel-rights">
-        <p>&copy; 2025 Kochwelt. Alle Rechte vorbehalten.</p>
-        <a class="datenschutz" href="datenschutz.html">Datenschutz</a>
-    </div>
-</footer>
+    <footer>
+        <div class="max-width-footer">
+            <img src="./img/logo_small_white.PNG" alt="Kochwelt Logo" />
+            <div class="footer-datenschutz-kochwel-rights">
+                <p>&copy; 2025 Kochwelt. Alle Rechte vorbehalten.</p>
+                <a class="datenschutz" href="datenschutz.html">Datenschutz</a>
+            </div>
+        </div>
+    </footer>
 
 </html>
