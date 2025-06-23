@@ -630,4 +630,8 @@ footer img {
   nav {
     margin-left: auto;
   }
-}
+  .impressum-datenschutz-container p a {
+    word-break: break-all;
+  }
+  }
+
