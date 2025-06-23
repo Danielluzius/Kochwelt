@@ -1,148 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rezept des Tages</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" href="./img/logo_small.png">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="./img/logo_small.png" />
     <script src="script.js"></script>
-</head>
+  </head>
 
-<body>
+  <body>
     <header class="max-width">
-        <a href="index.html"><img class="logo" src="./img/logo.png" alt="Kochwelt Logo" /></a>
-        <a href="index.html"><img class="logo_small" src="./img/logo_small.png" alt="Kochwelt Logo"></a>
+      <a href="index.html"
+        ><img class="logo" src="./img/logo.png" alt="Kochwelt Logo"
+      /></a>
+      <a href="index.html"
+        ><img class="logo_small" src="./img/logo_small.png" alt="Kochwelt Logo"
+      /></a>
 
-        <nav>
-            <div onclick="toggleMenu()" class="menu-icon">
-                <div class="line"></div>
-                <div class="line"></div>
-                <div class="line"></div>
-            </div>
-            <div id="menuButton" class="menu">
-                <a href="index.html">Start</a>
-                <a href="recipe2.html">Rezept des Tages</a>
-                <a href="contact.html">Kontakt</a>
-                <a href="impressum.html">Impressum</a>
-            </div>
-        </nav>
+      <nav>
+        <div onclick="toggleMenu()" class="menu-icon">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+        <div id="menuButton" class="menu">
+          <a href="index.html">Start</a>
+          <a href="recipe2.html">Rezept des Tages</a>
+          <a href="contact.html">Kontakt</a>
+          <a href="impressum.html">Impressum</a>
+        </div>
+      </nav>
     </header>
 
     <div class="underline"></div>
 
     <section class="hero-recipe">
-        <h2>Das Feedback-Sandwich</h2>
-        <img src="./img/sandwich.jpg" alt="Feedback-Sandwich">
-        <div class="hero-recipe-steps">
-            <div class="hero-recipe-info">
-                <img src="./img/icons/clock-regular.svg" alt="Uhr Icon">
-                <p>10 Min.</p>
-            </div>
-            <div class="hero-recipe-info">
-                <img src="./img/icons/brain-solid.svg" alt="Brain Icon">
-                <p>simple</p>
-            </div>
-            <div class="hero-recipe-info">
-                <img src="./img/icons/calendar-alt-regular.svg" alt="Kalender Icon">
-                <p>18.06.2020</p>
-            </div>
+      <h2>Das Feedback-Sandwich</h2>
+      <img src="./img/sandwich.jpg" alt="Feedback-Sandwich" />
+      <div class="hero-recipe-steps">
+        <div class="hero-recipe-info">
+          <img src="./img/icons/clock-regular.svg" alt="Uhr Icon" />
+          <p>10 Min.</p>
         </div>
+        <div class="hero-recipe-info">
+          <img src="./img/icons/brain-solid.svg" alt="Brain Icon" />
+          <p>simple</p>
+        </div>
+        <div class="hero-recipe-info">
+          <img src="./img/icons/calendar-alt-regular.svg" alt="Kalender Icon" />
+          <p>18.06.2020</p>
+        </div>
+      </div>
     </section>
 
     <article class="ingredients">
-        <div class="divining-line"></div>
-        <div class="ingredients-box">
-            <p>Zutaten für</p>
-            <div class="ingredients-button">
-                <input value="1" min="1" max="50" type="number">
-                <button>Portionen</button>
-            </div>
+      <div class="divining-line"></div>
+      <div class="ingredients-box">
+        <p>Zutaten für</p>
+        <div class="ingredients-button">
+          <input value="1" min="1" max="50" type="number" />
+          <button>Portionen</button>
         </div>
-        <table class="ingredients-table">
-            <tr>
-                <td class="line1 amount">2</td>
-                <td class="line1 text">Scheiben Weißbrot</td>
-            </tr>
-            <tr>
-                <td class="line2 amount">3</td>
-                <td class="line2 text">Blätter Romanasalat</td>
-            </tr>
-            <tr>
-                <td class="line1 amount">2</td>
-                <td class="line1 text">Scheiben Tomate</td>
-            </tr>
-            <tr>
-                <td class="line2 amount">4</td>
-                <td class="line2 text">Scheiben Salatgurke</td>
-            </tr>
-            <tr>
-                <td class="line1 amount">60g</td>
-                <td class="line1 text">gegartes Lachsfilet</td>
-            </tr>
-            <tr>
-                <td class="line2 amount">1</td>
-                <td class="line2 text">TL mittelscharfer Senf</td>
-            </tr>
-            <tr>
-                <td class="line1 amount">1</td>
-                <td class="line1 text">TL frisch gehackter Dill</td>
-            </tr>
-            <tr>
-                <td class="line2 amount">1</td>
-                <td class="line2 text">TL Weißweinessig</td>
-            </tr>
-            <tr>
-                <td class="line1 amount">1</td>
-                <td class="line1 text">EL Sonnenblumenöl</td>
-            </tr>
-            <tr>
-                <td class="line2 amount">1</td>
-                <td class="line2 text">Messerspitze(n) Zucker</td>
-            </tr>
-        </table>
+      </div>
+      <table class="ingredients-table">
+        <tr>
+          <td class="line1 amount">2</td>
+          <td class="line1 text">Scheiben Weißbrot</td>
+        </tr>
+        <tr>
+          <td class="line2 amount">3</td>
+          <td class="line2 text">Blätter Romanasalat</td>
+        </tr>
+        <tr>
+          <td class="line1 amount">2</td>
+          <td class="line1 text">Scheiben Tomate</td>
+        </tr>
+        <tr>
+          <td class="line2 amount">4</td>
+          <td class="line2 text">Scheiben Salatgurke</td>
+        </tr>
+        <tr>
+          <td class="line1 amount">60g</td>
+          <td class="line1 text">gegartes Lachsfilet</td>
+        </tr>
+        <tr>
+          <td class="line2 amount">1</td>
+          <td class="line2 text">TL mittelscharfer Senf</td>
+        </tr>
+        <tr>
+          <td class="line1 amount">1</td>
+          <td class="line1 text">TL frisch gehackter Dill</td>
+        </tr>
+        <tr>
+          <td class="line2 amount">1</td>
+          <td class="line2 text">TL Weißweinessig</td>
+        </tr>
+        <tr>
+          <td class="line1 amount">1</td>
+          <td class="line1 text">EL Sonnenblumenöl</td>
+        </tr>
+        <tr>
+          <td class="line2 amount">1</td>
+          <td class="line2 text">Messerspitze(n) Zucker</td>
+        </tr>
+      </table>
     </article>
 
     <section class="preparation">
-        <h3>Zubereitung</h3>
-        <div class="preparation-steps">
-            <div class="preparation-info">
-                <img src="./img/icons/clock-regular.svg" alt="Uhr Icon">
-                <p>ca. 10 Minuten</p>
-            </div>
-            <div class="preparation-info">
-                <img src="./img/icons/clock-regular.svg" alt="Uhr Icon">
-                <p>Gesamtzeit ca. 10 Minuten</p>
-            </div>
+      <h3>Zubereitung</h3>
+      <div class="preparation-steps">
+        <div class="preparation-info">
+          <img src="./img/icons/clock-regular.svg" alt="Uhr Icon" />
+          <p>ca. 10 Minuten</p>
         </div>
-        <p>In einer Schüssel Senf, Dill, Essig, Öl und Zucker zu einem harmonischen Dressing verrühren. Tomate und Gurke
-            in gleichmäßige Scheiben schneiden. Romanasalat waschen, nicht zu streng abtupfen und in passende Blätter
-            teilen. Das Lachsfilet gegebenenfalls in Streifen schneiden. Eine Scheibe Weißbrot mit dem Dressing
-            bestreichen, dann mit Salat, Tomate, Gurke und Lachs in ausgewogener Reihenfolge belegen. Die zweite
-            Brotscheibe auflegen und freundlich, aber bestimmt andrücken. Für besseren Zusammenhalt mit einem
-            Holzstäbchen fixieren - und fertig.</p>
+        <div class="preparation-info">
+          <img src="./img/icons/clock-regular.svg" alt="Uhr Icon" />
+          <p>Gesamtzeit ca. 10 Minuten</p>
+        </div>
+      </div>
+      <p>
+        In einer Schüssel Senf, Dill, Essig, Öl und Zucker zu einem harmonischen
+        Dressing verrühren. Tomate und Gurke in gleichmäßige Scheiben schneiden.
+        Romanasalat waschen, nicht zu streng abtupfen und in passende Blätter
+        teilen. Das Lachsfilet gegebenenfalls in Streifen schneiden. Eine
+        Scheibe Weißbrot mit dem Dressing bestreichen, dann mit Salat, Tomate,
+        Gurke und Lachs in ausgewogener Reihenfolge belegen. Die zweite
+        Brotscheibe auflegen und freundlich, aber bestimmt andrücken. Für
+        besseren Zusammenhalt mit einem Holzstäbchen fixieren - und fertig.
+      </p>
     </section>
 
     <section class="made-by">
-        <h4>Rezept erstellt von</h4>
-        <div class="made-by-info">
-            <img src="./img/placeholder.png" alt="Rezept Ersteller">
-            <p>Sascha Heinze</p>
-        </div>
-
+      <h4>Rezept erstellt von</h4>
+      <div class="made-by-info">
+        <img src="./img/placeholder.png" alt="Rezept Ersteller" />
+        <p>Sascha Heinze</p>
+      </div>
     </section>
 
     <footer>
-        <div class="max-width-footer">
-            <img src="./img/logo_small_white.PNG" alt="Kochwelt Logo" />
-            <div class="footer-datenschutz-kochwel-rights">
-                <p>&copy; 2025 Kochwelt. Alle Rechte vorbehalten.</p>
-                <a class="datenschutz" href="datenschutz.html">Datenschutz</a>
-            </div>
+      <div class="max-width-footer">
+        <img src="./img/logo_small_white.PNG" alt="Kochwelt Logo" />
+        <div class="footer-datenschutz-kochwel-rights">
+          <p>&copy; 2025 Kochwelt. Alle Rechte vorbehalten.</p>
+          <a class="datenschutz" href="datenschutz.html">Datenschutz</a>
         </div>
+      </div>
     </footer>
-
-</body>
-
+  </body>
 </html>
