@@ -523,6 +523,10 @@ footer img {
   height: 70px;
 }
 
+.formular-container h2 {
+  margin: revert;
+}
+
 /* MEDIA */
 
 @media (max-width: 820px) {
