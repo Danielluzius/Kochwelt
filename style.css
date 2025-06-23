@@ -578,8 +578,9 @@ footer img {
     margin-bottom: 0px;
   }
 
-  .quick-links-3images {
+  .quick-links-grid {
     flex-direction: column;
+    align-items: center;
   }
 
   .idea-content {
