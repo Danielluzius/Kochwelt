@@ -112,6 +112,9 @@ nav {
   justify-content: flex-start;
   padding: 70px 160px;
   gap: 24px;
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-recipe img {
@@ -224,6 +227,12 @@ nav {
   margin: 0 160px;
 }
 
+.ingredients {
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .ingredients-box {
   display: flex;
   padding: 8px 160px;
@@ -244,6 +253,7 @@ nav {
   font-size: 17px;
   cursor: pointer;
 }
+
 .ingredients-button input {
   width: 144px;
   height: 38px;
@@ -286,6 +296,9 @@ nav {
 
 .preparation {
   padding: 20px 160px;
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .preparation h2 {
@@ -317,6 +330,9 @@ nav {
 
 .made-by {
   padding: 0px 160px 120px;
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .made-by-info {
@@ -507,7 +523,8 @@ footer img {
 
   .menu {
     position: absolute;
-    top: 100px; /* unterhalb des Headers */
+    top: 100px;
+    /* unterhalb des Headers */
     right: 24px;
     background-color: white;
     flex-direction: column;
