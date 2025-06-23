@@ -337,8 +337,7 @@ nav {
 }
 
 .made-by {
-  padding: 20px clamp(10px, 9vw, 160px);
-  padding-bottom: 100px;
+  padding: 0px 120px clamp(10px, 9vw, 160px);
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
@@ -452,6 +451,12 @@ nav {
   margin-top: 10px;
 }
 
+.impressum-datenschutz {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .impressum-datenschutz-container {
   max-width: 100vw;
   padding: 30px;
@@ -461,8 +466,10 @@ nav {
   gap: 20px;
   text-align: start;
   max-width: 1440px;
-  margin: auto;
+  /* margin: auto; */
   padding-top: revert;
+  display: flex;
+  flex-direction: column;
 }
 
 .impressum-datenschutz h1 {
@@ -640,6 +647,7 @@ footer img {
   nav {
     margin-left: auto;
   }
+
   .impressum-datenschutz-container p a {
     word-break: break-all;
   }
@@ -651,17 +659,17 @@ footer img {
   .hero-recipe-steps {
     justify-content: center;
   }
+
   .hero-recipe h2 {
     text-align: center;
   }
+
   .preparation h2 {
     text-align: center;
   }
+
   .preparation-steps {
     justify-content: center;
-  }
-  .preparation p {
-    text-align: center;
   }
 }
 
