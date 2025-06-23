@@ -230,7 +230,6 @@ nav {
 .divining-line {
   background-color: rgb(239, 239, 239);
   height: 1.5px;
-  margin: 0 clamp(10px, 9vw, 160px);
 }
 
 .ingredients {
@@ -242,7 +241,6 @@ nav {
 
 .ingredients-box {
   display: flex;
-  padding: 8px clamp(10px, 9vw, 160px);
   gap: 20px;
 }
 
