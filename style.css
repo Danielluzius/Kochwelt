@@ -485,11 +485,16 @@ nav {
 }
 
 footer {
+  background-color: rgb(64, 59, 59);
+}
+
+.max-width-footer {
   display: flex;
   padding: 40px clamp(10px, 9vw, 160px);
   justify-content: space-between;
-  background-color: rgb(64, 59, 59);
-  /* height: 300px; */
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer-datenschutz-kochwel-rights {
