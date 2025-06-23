@@ -629,6 +629,9 @@ footer img {
     gap: clamp(10px, 4vw, 40px);
     justify-content: center;
   }
+  .idea-content p {
+    text-align: center;
+  }
 }
 
 @media (max-width: 450px) {
