@@ -601,6 +601,10 @@ footer img {
   footer img {
     display: none;
   }
+
+  .max-width-footer {
+    display: block;
+  }
 }
 
 @media (max-width: 450px) {
