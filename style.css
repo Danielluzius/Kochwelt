@@ -451,6 +451,7 @@ nav {
   margin-top: 10px;
 }
 
+
 .impressum-datenschutz-container {
   max-width: 100vw;
   padding: 30px;
@@ -460,7 +461,8 @@ nav {
   gap: 20px;
   text-align: start;
   max-width: 1440px;
-  margin: 0 auto;
+  margin: auto;
+  padding-top: revert;
 }
 
 .impressum-datenschutz h1 {
@@ -468,6 +470,7 @@ nav {
   font-size: 32px;
   font-weight: bold;
   margin-bottom: 80px;
+  padding-top: 18px;
 }
 
 .impressum-datenschutz h2 {
