@@ -237,6 +237,7 @@ nav {
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
+  padding: 8px clamp(10px, 9vw, 160px);
 }
 
 .ingredients-box {
@@ -272,7 +273,7 @@ nav {
 
 .ingredients table {
   width: 100%;
-  padding: 8px clamp(10px, 9vw, 160px);
+
   border-spacing: 0;
 }
 
