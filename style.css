@@ -602,7 +602,7 @@ footer img {
   .logo_small {
     display: flex;
     object-fit: cover;
-    height: 70px;
+    height: 64px;
   }
 
   nav {
