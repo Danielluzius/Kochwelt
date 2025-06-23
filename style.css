@@ -359,11 +359,6 @@ nav {
   margin: 0;
 }
 
-footer {
-  background-color: rgb(64, 59, 59);
-  height: 380px;
-}
-
 .formular-section {
   display: flex;
   justify-content: center;
@@ -460,6 +455,8 @@ footer {
   display: flex;
   padding: 40px clamp(10px, 9vw, 160px);
   justify-content: space-between;
+  background-color: rgb(64, 59, 59);
+  height: 85px;
 }
 
 .footer-datenschutz-kochwel-rights {
