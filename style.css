@@ -604,4 +604,8 @@ footer img {
     object-fit: cover;
     height: 70px;
   }
+
+  nav {
+    margin-left: auto;
+  }
 }
