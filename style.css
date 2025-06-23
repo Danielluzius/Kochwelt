@@ -38,7 +38,7 @@ header {
   background-color: rgba(0, 0, 0, 0.112);
   height: 1px;
   width: auto;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.112);
+  box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.112);
 }
 
 .logo {
