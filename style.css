@@ -273,7 +273,7 @@ nav {
 
 .ingredients table {
   width: 100%;
-
+  padding: 8px clamp(10px, 9vw, 160px);
   border-spacing: 0;
 }
 
@@ -333,6 +333,10 @@ nav {
   height: 24px;
   padding: 4px 12px;
   border-radius: 10px;
+}
+
+.preparation-info p {
+  white-space: nowrap;
 }
 
 .made-by {
