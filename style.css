@@ -681,4 +681,8 @@ footer img {
     flex-direction: column;
     margin: 0;
   }
+
+  .impressum-datenschutz-container {
+    padding: 10px;
+  }
 }
