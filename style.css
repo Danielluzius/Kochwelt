@@ -456,7 +456,7 @@ footer {
   padding: 40px clamp(10px, 9vw, 160px);
   justify-content: space-between;
   background-color: rgb(64, 59, 59);
-  height: 85px;
+  /* height: 300px; */
 }
 
 .footer-datenschutz-kochwel-rights {
@@ -533,5 +533,29 @@ footer img {
     gap: 16px;
     padding: 0px clamp(10px, 9vw, 160px);
     padding-bottom: 16px;
+  }
+}
+
+@media (max-width: 730px) {
+  .hero {
+    display: flex;
+    padding: 70px clamp(10px, 9vw, 160px);
+    gap: 32px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero button {
+    margin-bottom: 0px;
+  }
+
+  .quick-links-3images {
+    flex-direction: column;
+  }
+
+  .idea-content {
+    flex-direction: column-reverse;
+    align-items: center;
   }
 }
