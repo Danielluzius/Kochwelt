@@ -273,7 +273,6 @@ nav {
 
 .ingredients table {
   width: 100%;
-  padding: 8px clamp(10px, 9vw, 160px);
   border-spacing: 0;
 }
 
