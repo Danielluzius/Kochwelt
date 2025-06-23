@@ -183,7 +183,6 @@ nav {
   display: flex;
   justify-content: space-between;
   gap: 48px;
-  flex-wrap: wrap;
 }
 
 .quick-link {
