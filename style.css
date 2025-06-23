@@ -458,7 +458,7 @@ nav {
   gap: 20px;
   text-align: start;
   max-width: 1440px;
-  margin: 20px auto;
+  margin: 0 auto;
 }
 
 .impressum-datenschutz h1 {
@@ -633,5 +633,4 @@ footer img {
   .impressum-datenschutz-container p a {
     word-break: break-all;
   }
-  }
-
+}
