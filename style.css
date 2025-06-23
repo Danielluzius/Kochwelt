@@ -457,6 +457,8 @@ nav {
   border-radius: 10px;
   gap: 20px;
   text-align: start;
+  max-width: 1440px;
+  margin: 20px auto;
 }
 
 .impressum-datenschutz h1 {
@@ -605,6 +607,13 @@ footer img {
   .max-width-footer {
     display: block;
   }
+
+  .footer-datenschutz-kochwel-rights {
+    display: flex;
+    margin-top: 35px;
+    gap: clamp(10px, 4vw, 40px);
+    justify-content: center;
+  }
 }
 
 @media (max-width: 450px) {
@@ -621,4 +630,8 @@ footer img {
   nav {
     margin-left: auto;
   }
-}
+  .impressum-datenschutz-container p a {
+    word-break: break-all;
+  }
+  }
+
