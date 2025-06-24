@@ -572,9 +572,10 @@ footer img {
 .formular-container form {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+
   align-items: stretch;
   text-align: start;
+  margin: 12px;
 }
 .formular-container button {
   width: 100%;
@@ -605,7 +606,7 @@ footer img {
 }
 .formular-container label {
   text-align: left;
-  margin-bottom: 5px;
+  margin: 16px 0;
   font-weight: 600;
 }
 
