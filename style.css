@@ -339,12 +339,14 @@ footer img {
 .hero-recipe {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
   gap: 24px;
   padding: 70px clamp(10px, 9vw, 160px);
   text-align: center;
   box-sizing: border-box;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-recipe img {
@@ -383,6 +385,7 @@ footer img {
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
+  box-sizing: border-box;
 }
 
 .ingredients-box {
