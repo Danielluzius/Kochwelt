@@ -542,6 +542,7 @@ footer img {
   padding: 30px;
   box-sizing: border-box;
   margin: 24px 0;
+  word-break: break-all;
 }
 
 .formular-section {
