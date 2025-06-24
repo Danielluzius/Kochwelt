@@ -536,19 +536,27 @@ footer img {
 }
 
 .formular-section {
-  padding: 80px clamp(10px, 9vw, 160px);
+  display: flex;
+  justify-content: center;
+  height: 735px;
+  align-items: center;
+  background-color: rgb(239, 239, 239);
+  margin: 48px clamp(10px, 9vw, 160px) 30px clamp(10px, 9vw, 160px);
+  border-radius: 10px;
 }
 
+
 .formular-container {
-  background-color: rgb(239, 239, 239);
-  border-radius: 16px;
-  padding: 30px;
-  box-sizing: border-box;
   width: 100%;
   max-width: 600px;
-  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  gap: 20px;
+  text-align: center;
 }
+
 .formular-container {
   text-align: center;
 }
@@ -556,9 +564,34 @@ footer img {
 .formular-container form {
   display: flex;
   flex-direction: column;
-  text-align: center;
-  padding: 24px;
-  gap: 8px;
+  gap: 20px;
+  align-items: stretch;
+  text-align: start;
+}
+.formular-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: rgb(0, 128, 0);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.formular-container input, .formular-container textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 0;
+}
+.formular-container label {
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: 600;
 }
 
 @media (max-width: 820px) {
