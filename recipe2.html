@@ -1,22 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rezept des Tages</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="icon" type="image/png" href="./img/logo_small.png" />
-    <!-- <script src="script.js"></script> -->
-  </head>
 
-  <body>
-    <header class="max-width">
-      <a href="index.html"
-        ><img class="logo" src="./img/logo.png" alt="Kochwelt Logo"
-      /></a>
-      <a href="index.html"
-        ><img class="logo_small" src="./img/logo_small.png" alt="Kochwelt Logo"
-      /></a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rezept des Tages</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="./img/logo_small.png" />
+  <!-- <script src="script.js"></script> -->
+</head>
+
+<body>
+  <header>
+    <div class="container header-content">
+      <a href="index.html"><img class="logo" src="./img/logo.png" alt="Kochwelt Logo" /></a>
+      <a href="index.html"><img class="logo_small" src="./img/logo_small.png" alt="Kochwelt Logo" /></a>
 
       <nav>
         <div onclick="toggleMenu()" class="menu-icon">
@@ -31,10 +29,11 @@
           <a href="impressum.html">Impressum</a>
         </div>
       </nav>
-    </header>
+    </div>
 
     <div class="underline"></div>
-
+  </header>
+  <main>
     <section class="hero-recipe">
       <h2>Das Feedback-Sandwich</h2>
       <img src="./img/sandwich.jpg" alt="Feedback-Sandwich" />
@@ -139,14 +138,17 @@
       </div>
     </section>
 
-    <footer>
-      <div class="max-width-footer">
-        <img src="./img/logo_small_white.PNG" alt="Kochwelt Logo" />
-        <div class="footer-datenschutz-kochwel-rights">
-          <p>&copy; 2025 Kochwelt. Alle Rechte vorbehalten.</p>
-          <a class="datenschutz" href="datenschutz.html">Datenschutz</a>
+  </main>
+  <footer>
+        <div class="container footer-wrapper">
+            <img src="./img/logo_small_white.PNG" alt="Kochwelt Logo" />
+            <div class="footer-datenschutz-kochwel-rights">
+                <p>&copy; 2025 Kochwelt. Alle Rechte vorbehalten.</p>
+                <a class="datenschutz" href="datenschutz.html">Datenschutz</a>
+            </div>
         </div>
-      </div>
     </footer>
-  </body>
+
+</body>
+
 </html>

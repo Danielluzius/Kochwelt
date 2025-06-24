@@ -11,151 +11,155 @@
 </head>
 
 <body>
-    <header class="max-width">
-        <a href="index.html"><img class="logo" src="./img/logo.png" alt="Kochwelt Logo" /></a>
-        <a href="index.html"><img class="logo_small" src="./img/logo_small.png" alt="Kochwelt Logo"></a>
+    <header>
+        <div class="container header-content">
+            <a href="index.html"><img class="logo" src="./img/logo.png" alt="Kochwelt Logo" /></a>
+            <a href="index.html"><img class="logo_small" src="./img/logo_small.png" alt="Kochwelt Logo"></a>
 
-        <nav>
-            <div onclick="toggleMenu()" class="menu-icon">
-                <div class="line"></div>
-                <div class="line"></div>
-                <div class="line"></div>
-            </div>
-            <div id="menuButton" class="menu">
-                <a href="index.html">Start</a>
-                <a href="recipe2.html">Rezept des Tages</a>
-                <a href="contact.html">Kontakt</a>
-                <a href="impressum.html">Impressum</a>
-            </div>
-        </nav>
+            <nav>
+                <div onclick="toggleMenu()" class="menu-icon">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+                <div id="menuButton" class="menu">
+                    <a href="index.html">Start</a>
+                    <a href="recipe2.html">Rezept des Tages</a>
+                    <a href="contact.html">Kontakt</a>
+                    <a href="impressum.html">Impressum</a>
+                </div>
+            </nav>
+        </div>
+
+        <div class="underline"></div>
+
     </header>
-
-    <div class="underline"></div>
-
-    <section class="hero-recipe">
-        <h2>Italienische Pizza</h2>
-        <img src="./img/pizza.png" alt="Pizza">
-        <div class="hero-recipe-steps">
-            <div class="hero-recipe-info">
-                <img src="./img/icons/clock-regular.svg" alt="Uhr Icon">
-                <p>30 Min.</p>
+    <main>
+        <section class="hero-recipe">
+            <h2>Italienische Pizza</h2>
+            <img src="./img/pizza.png" alt="Pizza">
+            <div class="hero-recipe-steps">
+                <div class="hero-recipe-info">
+                    <img src="./img/icons/clock-regular.svg" alt="Uhr Icon">
+                    <p>30 Min.</p>
+                </div>
+                <div class="hero-recipe-info">
+                    <img src="./img/icons/brain-solid.svg" alt="Brain Icon">
+                    <p>Einfach</p>
+                </div>
+                <div class="hero-recipe-info">
+                    <img src="./img/icons/calendar-alt-regular.svg" alt="Kalender Icon">
+                    <p>18.06.2020</p>
+                </div>
             </div>
-            <div class="hero-recipe-info">
-                <img src="./img/icons/brain-solid.svg" alt="Brain Icon">
-                <p>Einfach</p>
+        </section>
+
+        <article class="ingredients">
+            <div class="divining-line"></div>
+            <div class="ingredients-box">
+                <p>Zutaten für</p>
+                <div class="ingredients-button">
+                    <input value="1" min="1" max="50" type="number">
+                    <button>Portionen</button>
+                </div>
             </div>
-            <div class="hero-recipe-info">
-                <img src="./img/icons/calendar-alt-regular.svg" alt="Kalender Icon">
-                <p>18.06.2020</p>
+            <table class="ingredients-table">
+                <tr>
+                    <td class="line1 amount">150g</td>
+                    <td class="line1 text">Weizenmehl Typ 405</td>
+                </tr>
+                <tr>
+                    <td class="line2 amount">1/4 Würfel</td>
+                    <td class="line2 text">Frische Hefe</td>
+                </tr>
+                <tr>
+                    <td class="line1 amount">90 ml</td>
+                    <td class="line1 text">lauwarmes Wasser</td>
+                </tr>
+                <tr>
+                    <td class="line2 amount">0,5 TL</td>
+                    <td class="line2 text">Salz</td>
+                </tr>
+                <tr>
+                    <td class="line1 amount">0,5 EL</td>
+                    <td class="line1 text">Olivenöl</td>
+                </tr>
+                <tr>
+                    <td class="line2 amount">1/4 TL</td>
+                    <td class="line2 text">Zucker</td>
+                </tr>
+                <tr>
+                    <td class="line1 amount">100g</td>
+                    <td class="line1 text">passierte Tomaten</td>
+                </tr>
+                <tr>
+                    <td class="line2 amount">1 Kugel</td>
+                    <td class="line2 text">Mozarella</td>
+                </tr>
+                <tr>
+                    <td class="line1 amount">1 Prise</td>
+                    <td class="line1 text">Basilikum</td>
+                </tr>
+                <tr>
+                    <td class="line2 amount">1 Prise</td>
+                    <td class="line2 text">Salz / Pfeffer</td>
+                </tr>
+                <tr>
+                    <td class="line1 amount">0,5 TL </td>
+                    <td class="line1 text">Olivenöl, für die Sauce</td>
+                </tr>
+                <tr>
+                    <td class="line2 menge">1 Prise</td>
+                    <td class="line2 text">Oregano</td>
+                </tr>
+            </table>
+        </article>
+
+        <section class="preparation">
+            <h2>Zubereitung</h2>
+            <div class="preparation-steps">
+                <div class="preparation-info">
+                    <img src="./img/icons/clock-regular.svg" alt="Uhr Icon">
+                    <p>ca. 30 Minuten</p>
+                </div>
+                <div class="preparation-info">
+                    <img src="./img/icons/clock-regular.svg" alt="Uhr Icon">
+                    <p>Gesamtzeit ca. 4 Stunden</p>
+                </div>
             </div>
-        </div>
-    </section>
+            <p>1. Das lauwarme Wasser in eine Schüssel geben, Zucker und Hefe hineinbröseln und kurz verrühren. Etwa 5
+                Minuten stehen lassen, bis die Hefe schäumt.<br><br>
+                2. Das Mehl zusammen mit dem Salz in eine große Schüssel geben, eine Mulde formen und die Hefemischung
+                hineingeben. Das Olivenöl dazugeben und alles zu einem geschmeidigen Teig verkneten (mind. 5-7 Minuten),
+                bis
+                er nicht mehr an den Händen klebt.<br><br>
+                3. Den Teig abgedeckt an einem warmen Ort für 30-60 Minuten gehen lassen, bis er sein Volumen ungefähr
+                verdoppelt hat.<br><br>
+                4. Nach der Gehzeit den Teig kurz durchkneten, auf einer bemehlten Fläche dünn ausrollen und auf ein mit
+                Backpapier belegtes Blech legen.<br><br>
+                5. Die passierten Tomaten mit ½ TL Olivenöl, einer Prise Salz, etwas Pfeffer und Oregano verrühren und
+                gleichmäßig auf dem Teig verstreichen.<br><br>
+                6. Den Mozzarella in Scheiben schneiden und zusammen mit etwas Basilikum gleichmäßig darauf
+                verteilen.<br><br>
+                7. Die Pizza bei 220 °C (Ober-/Unterhitze) im vorgeheizten Ofen ca. 10-12 Minuten backen, bis der Rand
+                goldbraun ist und der Käse geschmolzen und leicht angebräunt ist.<br><br>
+                8. Nach dem Backen kurz abkühlen lassen, in Stücke schneiden und genießen - am besten sofort servieren,
+                solange sie heiß und knusprig ist!</p>
 
-    <article class="ingredients">
-        <div class="divining-line"></div>
-        <div class="ingredients-box">
-            <p>Zutaten für</p>
-            <div class="ingredients-button">
-                <input value="1" min="1" max="50" type="number">
-                <button>Portionen</button>
+        </section>
+
+        <section class="made-by">
+            <h3>Rezept erstellt von</h3>
+            <div class="made-by-info">
+                <img src="./img/p-schmidt-logo.png" alt="Rezept Ersteller">
+                <p>Patrick Schmidt</p>
             </div>
-        </div>
-        <table class="ingredients-table">
-            <tr>
-                <td class="line1 amount">150g</td>
-                <td class="line1 text">Weizenmehl Typ 405</td>
-            </tr>
-            <tr>
-                <td class="line2 amount">1/4 Würfel</td>
-                <td class="line2 text">Frische Hefe</td>
-            </tr>
-            <tr>
-                <td class="line1 amount">90 ml</td>
-                <td class="line1 text">lauwarmes Wasser</td>
-            </tr>
-            <tr>
-                <td class="line2 amount">0,5 TL</td>
-                <td class="line2 text">Salz</td>
-            </tr>
-            <tr>
-                <td class="line1 amount">0,5 EL</td>
-                <td class="line1 text">Olivenöl</td>
-            </tr>
-            <tr>
-                <td class="line2 amount">1/4 TL</td>
-                <td class="line2 text">Zucker</td>
-            </tr>
-            <tr>
-                <td class="line1 amount">100g</td>
-                <td class="line1 text">passierte Tomaten</td>
-            </tr>
-            <tr>
-                <td class="line2 amount">1 Kugel</td>
-                <td class="line2 text">Mozarella</td>
-            </tr>
-            <tr>
-                <td class="line1 amount">1 Prise</td>
-                <td class="line1 text">Basilikum</td>
-            </tr>
-            <tr>
-                <td class="line2 amount">1 Prise</td>
-                <td class="line2 text">Salz / Pfeffer</td>
-            </tr>
-            <tr>
-                <td class="line1 amount">0,5 TL </td>
-                <td class="line1 text">Olivenöl, für die Sauce</td>
-            </tr>
-            <tr>
-                <td class="line2 menge">1 Prise</td>
-                <td class="line2 text">Oregano</td>
-            </tr>
-        </table>
-    </article>
 
-    <section class="preparation">
-        <h2>Zubereitung</h2>
-        <div class="preparation-steps">
-            <div class="preparation-info">
-                <img src="./img/icons/clock-regular.svg" alt="Uhr Icon">
-                <p>ca. 30 Minuten</p>
-            </div>
-            <div class="preparation-info">
-                <img src="./img/icons/clock-regular.svg" alt="Uhr Icon">
-                <p>Gesamtzeit ca. 4 Stunden</p>
-            </div>
-        </div>
-        <p>1. Das lauwarme Wasser in eine Schüssel geben, Zucker und Hefe hineinbröseln und kurz verrühren. Etwa 5
-            Minuten stehen lassen, bis die Hefe schäumt.<br><br>
-            2. Das Mehl zusammen mit dem Salz in eine große Schüssel geben, eine Mulde formen und die Hefemischung
-            hineingeben. Das Olivenöl dazugeben und alles zu einem geschmeidigen Teig verkneten (mind. 5-7 Minuten), bis
-            er nicht mehr an den Händen klebt.<br><br>
-            3. Den Teig abgedeckt an einem warmen Ort für 30-60 Minuten gehen lassen, bis er sein Volumen ungefähr
-            verdoppelt hat.<br><br>
-            4. Nach der Gehzeit den Teig kurz durchkneten, auf einer bemehlten Fläche dünn ausrollen und auf ein mit
-            Backpapier belegtes Blech legen.<br><br>
-            5. Die passierten Tomaten mit ½ TL Olivenöl, einer Prise Salz, etwas Pfeffer und Oregano verrühren und
-            gleichmäßig auf dem Teig verstreichen.<br><br>
-            6. Den Mozzarella in Scheiben schneiden und zusammen mit etwas Basilikum gleichmäßig darauf
-            verteilen.<br><br>
-            7. Die Pizza bei 220 °C (Ober-/Unterhitze) im vorgeheizten Ofen ca. 10-12 Minuten backen, bis der Rand
-            goldbraun ist und der Käse geschmolzen und leicht angebräunt ist.<br><br>
-            8. Nach dem Backen kurz abkühlen lassen, in Stücke schneiden und genießen - am besten sofort servieren,
-            solange sie heiß und knusprig ist!</p>
-
-    </section>
-
-    <section class="made-by">
-        <h3>Rezept erstellt von</h3>
-        <div class="made-by-info">
-            <img src="./img/p-schmidt-logo.png" alt="Rezept Ersteller">
-            <p>Patrick Schmidt</p>
-        </div>
-
-    </section>
-
+        </section>
+    </main>
 
     <footer>
-        <div class="max-width-footer">
+        <div class="container footer-wrapper">
             <img src="./img/logo_small_white.PNG" alt="Kochwelt Logo" />
             <div class="footer-datenschutz-kochwel-rights">
                 <p>&copy; 2025 Kochwelt. Alle Rechte vorbehalten.</p>
