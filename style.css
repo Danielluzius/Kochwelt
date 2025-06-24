@@ -224,7 +224,7 @@ footer {
   padding: 40px clamp(10px, 9vw, 160px);
 }
 
-.footer-datenschutz-kochwel-rights {
+.footer-datenschutz-kochwelt-rights {
   display: flex;
   gap: clamp(10px, 4vw, 40px);
   margin-top: 35px;
