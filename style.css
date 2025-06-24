@@ -588,15 +588,16 @@ footer img {
   cursor: pointer;
   margin-top: 10px;
 }
-.formular-container input, .formular-container textarea {
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-    margin-bottom: 0;
-    font-family: raleway-regular;
+.formular-container input,
+.formular-container textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-bottom: 0;
+  font-family: raleway-regular;
 }
 .formular-container label {
   text-align: left;
