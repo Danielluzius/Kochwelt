@@ -280,6 +280,13 @@ footer img {
     background-color: black;
   }
 
+  .d-none {
+    display: flex;
+    align-items: end;
+    gap: 16px;
+    padding: 16px clamp(10px, 6vw, 160px);
+  }
+
   .quick-links-grid {
     flex-direction: column;
     align-items: center;
