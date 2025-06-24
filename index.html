@@ -1,95 +1,104 @@
 <!DOCTYPE html>
 <html lang="de">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kochwelt</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" type="image/png" href="./img/logo_small.png" />
     <script src="script.js" defer></script>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <div class="container header-content">
-            <a href="index.html"><img class="logo" src="./img/logo.png" alt="Kochwelt Logo" /></a>
-            <a href="index.html"><img class="logo_small" src="./img/logo_small.png" alt="Kochwelt Logo" /></a>
+      <div class="container header-content">
+        <a href="index.html"
+          ><img class="logo" src="./img/logo.png" alt="Kochwelt Logo"
+        /></a>
+        <a href="index.html"
+          ><img
+            class="logo_small"
+            src="./img/logo_small.png"
+            alt="Kochwelt Logo"
+        /></a>
 
-            <nav>
-                <div onclick="toggleMenu()" class="menu-icon">
-                    <div class="line"></div>
-                    <div class="line"></div>
-                    <div class="line"></div>
-                </div>
-                <div id="menuButton" class="menu">
-                    <a href="index.html">Start</a>
-                    <a href="recipe2.html">Rezept des Tages</a>
-                    <a href="contact.html">Kontakt</a>
-                    <a href="impressum.html">Impressum</a>
-                </div>
-            </nav>
-        </div>
-        <div class="underline"></div>
+        <nav>
+          <div onclick="toggleMenu()" class="menu-icon">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
+          <div id="menuButton" class="menu">
+            <a href="index.html">Start</a>
+            <a href="recipe2.html">Rezept des Tages</a>
+            <a href="contact.html">Kontakt</a>
+            <a href="impressum.html">Impressum</a>
+          </div>
+        </nav>
+      </div>
+      <div class="underline"></div>
     </header>
 
     <main>
-        <section class="hero container">
-            <img src="./img/sandwich.jpg" alt="Feedback-Sandwich" />
-            <div class="recipe-suggestion">
-                <h2>Feedback-Sandwich</h2>
-                <p>
-                    Zwischen zwei weichen Brotscheiben liegen Romanasalat, dünn geschnittene Tomaten, Gurken und feiner
-                    Lachs. Ein fein abgeschmecktes Senf-Dressing mit Dill rundet das Ganze ab. Perfekt als leichter
-                    Lunch oder für unterwegs.
-                </p>
-                <a href="recipe2.html"><button>Rezept öffnen</button></a>
-            </div>
-        </section>
+      <section class="hero container">
+        <img src="./img/sandwich.jpg" alt="Feedback-Sandwich" />
+        <div class="recipe-suggestion">
+          <h2>Feedback-Sandwich</h2>
+          <p>
+            Zwischen zwei weichen Brotscheiben liegen Romanasalat, dünn
+            geschnittene Tomaten, Gurken und feiner Lachs. Ein fein
+            abgeschmecktes Senf-Dressing mit Dill rundet das Ganze ab. Perfekt
+            als leichter Lunch oder für unterwegs.
+          </p>
+          <a href="recipe2.html"><button>Rezept öffnen</button></a>
+        </div>
+      </section>
 
-        <section class="quick-links">
-            <div class="container">
-                <h2>Lust auf was Neues?</h2>
-                <div class="quick-links-grid">
-                    <div class="quick-link">
-                        <a href="recipe1.html">
-                            <img src="./img/bruschetta.jpg" alt="Bild von Bruschetta" />
-                        </a>
-                        <p>Bruschetta</p>
-                    </div>
-                    <div class="quick-link">
-                        <a href="recipe2.html">
-                            <img src="./img/sandwich.jpg" alt="Bild von Feedback-Sandwich" />
-                        </a>
-                        <p>Feedback-Sandwich</p>
-                    </div>
-                    <div class="quick-link">
-                        <a href="recipe3.html">
-                            <img src="./img/pizza.png" alt="Bild von Pizza" />
-                        </a>
-                        <p>Italienische Pizza</p>
-                    </div>
-                </div>
+      <section class="quick-links">
+        <div class="container">
+          <h2>Lust auf was Neues?</h2>
+          <div class="quick-links-grid">
+            <div class="quick-link">
+              <a href="recipe1.html">
+                <img src="./img/bruschetta.jpg" alt="Bild von Bruschetta" />
+              </a>
+              <p>Bruschetta</p>
             </div>
-        </section>
+            <div class="quick-link">
+              <a href="recipe2.html">
+                <img
+                  src="./img/sandwich.jpg"
+                  alt="Bild von Feedback-Sandwich"
+                />
+              </a>
+              <p>Feedback-Sandwich</p>
+            </div>
+            <div class="quick-link">
+              <a href="recipe3.html">
+                <img src="./img/pizza.png" alt="Bild von Pizza" />
+              </a>
+              <p>Italienische Pizza</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <section class="idea">
-            <div class="container">
-                <h2 id="idea-title"></h2>
-                <div class="idea-content" id="idea-content"></div>
-            </div>
-        </section>
+      <section class="idea">
+        <div class="container">
+          <h2 id="idea-title"></h2>
+          <div class="idea-content" id="idea-content"></div>
+        </div>
+      </section>
     </main>
 
     <footer>
-        <div class="container footer-wrapper">
-            <img src="./img/logo_small_white.PNG" alt="Kochwelt Logo" />
-            <div class="footer-datenschutz-kochwelt-rights">
-                <p>&copy; 2025 Kochwelt. Alle Rechte vorbehalten.</p>
-                <a class="datenschutz" href="datenschutz.html">Datenschutz</a>
-            </div>
+      <div class="container footer-wrapper">
+        <img src="./img/logo_small_white.PNG" alt="Kochwelt Logo" />
+        <div class="footer-datenschutz-kochwelt-rights">
+          <p>&copy; 2025 Kochwelt. Alle Rechte vorbehalten.</p>
+          <a class="datenschutz" href="datenschutz.html">Datenschutz</a>
         </div>
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>
