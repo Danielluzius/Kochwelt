@@ -526,10 +526,14 @@ footer {
 }
 
 footer a {
-  text-decoration: underline;
+  text-decoration: none;
   color: white;
   font-weight: 300;
   font-size: 17px;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
 
 footer p {
