@@ -550,7 +550,7 @@ footer img {
   height: 735px;
   align-items: center;
   background-color: rgb(239, 239, 239);
-  margin: 48px clamp(10px, 9vw, 160px) 30px clamp(10px, 9vw, 160px);
+  margin: 24px clamp(10px, 9vw, 160px) 30px clamp(10px, 9vw, 160px);
   border-radius: 10px;
 }
 
