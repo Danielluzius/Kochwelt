@@ -126,6 +126,11 @@ nav {
   margin: 40px 0;
 }
 
+.hero button:hover {
+  background-color: rgb(0, 113, 0);
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.24), 0 7px 25px 0 rgba(0, 0, 0, 0.19);
+}
+
 /* Quick Links */
 .quick-links {
   background-color: #efefef;
@@ -419,6 +424,11 @@ footer img {
   cursor: pointer;
 }
 
+.ingredients-button button:hover {
+  background-color: rgb(0, 113, 0);
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.24), 0 7px 25px 0 rgba(0, 0, 0, 0.19);
+}
+
 .ingredients-button input {
   width: clamp(16px, 8vw, 144px);
   height: 38px;
@@ -544,7 +554,6 @@ footer img {
   border-radius: 10px;
 }
 
-
 .formular-container {
   width: 100%;
   max-width: 600px;
@@ -568,15 +577,15 @@ footer img {
   text-align: start;
 }
 .formular-container button {
-    width: 100%;
-    padding: 12px;
-    background-color: rgb(0, 128, 0);
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 17px;
-    cursor: pointer;
-    margin-top: 10px;
+  width: 100%;
+  padding: 12px;
+  background-color: rgb(0, 128, 0);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 17px;
+  cursor: pointer;
+  margin-top: 10px;
 }
 .formular-container input, .formular-container textarea {
     width: 100%;
@@ -589,12 +598,15 @@ footer img {
     font-family: raleway-regular;
 }
 .formular-container label {
-    text-align: left;
-    margin-bottom: 5px;
-    font-weight: 600;
+  text-align: left;
+  margin-bottom: 5px;
+  font-weight: 600;
 }
 
 @media (max-width: 820px) {
+  .hero {
+    align-items: center;
+  }
   .hero-recipe {
     align-items: center;
   }
