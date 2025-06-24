@@ -38,3 +38,31 @@ document.addEventListener("DOMContentLoaded", () => {
 function toggleMenu() {
   document.getElementById("menuButton").classList.toggle("d-none");
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+  const form = document.querySelector('form');
+  if (form) {
+    form.addEventListener('submit', function(e) {
+      e.preventDefault(); // Verhindert das Standard-Absenden
+
+      const formData = new FormData(form);
+
+      fetch(form.action, {
+        method: form.method,
+        body: formData,
+        headers: {
+          'Accept': 'application/json'
+        }
+      }).then(response => {
+        // Erfolgreich abgeschickt, jetzt weiterleiten
+        window.location.href = 'index.html?sent=1';
+      }).catch(error => {
+        alert('Es gab ein Problem beim Absenden des Formulars.');
+      });
+    });
+  }
+});
+
+if (new URLSearchParams(window.location.search).get('sent') === '1') {
+    alert('Danke für deine Nachricht! 🙏 Wir melden uns bald bei dir.');
+  }
