@@ -498,9 +498,7 @@ nav {
 
 footer {
   background-color: rgb(64, 59, 59);
-  bottom: -637px;
-  position: absolute;
-  width: -webkit-fill-available;
+  
 }
 
 .max-width-footer {
