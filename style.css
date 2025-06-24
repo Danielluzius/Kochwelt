@@ -135,6 +135,7 @@ nav {
 .hero button:hover {
   background-color: rgb(0, 113, 0);
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.24), 0 7px 25px 0 rgba(0, 0, 0, 0.19);
+  transform: scale(1.001);
 }
 
 /* Quick Links */
@@ -433,6 +434,7 @@ footer img {
 .ingredients-button button:hover {
   background-color: rgb(0, 113, 0);
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.24), 0 7px 25px 0 rgba(0, 0, 0, 0.19);
+  transform: scale(1.001);
 }
 
 .ingredients-button input {
@@ -594,6 +596,12 @@ footer img {
   font-size: 17px;
   cursor: pointer;
   margin-top: 10px;
+}
+
+.formular-container button:hover {
+  background-color: rgb(0, 113, 0);
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.24), 0 7px 25px 0 rgba(0, 0, 0, 0.19);
+  transform: scale(1.001);
 }
 .formular-container input,
 .formular-container textarea {
