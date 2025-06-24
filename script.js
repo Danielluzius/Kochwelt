@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       }).then(response => {
         // Erfolgreich abgeschickt, jetzt weiterleiten
-        window.location.href = 'index.html';
+        window.location.href = 'index.html?sent=1';
       }).catch(error => {
         alert('Es gab ein Problem beim Absenden des Formulars.');
       });
