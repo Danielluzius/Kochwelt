@@ -341,7 +341,7 @@ footer img {
   flex-direction: column;
   align-items: flex-start;
   gap: 24px;
-  padding: 70px clamp(10px, 9vw, 160px);
+  padding: 70px clamp(10px, 9vw, 160px) 16px;
   text-align: center;
   box-sizing: border-box;
   max-width: 1440px;
@@ -398,7 +398,6 @@ footer img {
 .ingredients-button {
   display: flex;
   align-items: center;
-  gap: 8px;
 }
 
 .ingredients-button button {
@@ -409,7 +408,6 @@ footer img {
   height: 40px;
   font-size: 17px;
   cursor: pointer;
-  border-radius: 5px;
 }
 
 .ingredients-button input {
@@ -458,19 +456,21 @@ footer img {
 }
 
 .preparation {
-  padding: 40px clamp(10px, 9vw, 160px);
+  padding: 40px clamp(10px, 9vw, 160px) 8px;
   box-sizing: border-box;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .preparation h2,
 .preparation h3 {
   padding-bottom: 16px;
-  text-align: center;
+  text-align: flex-start;
 }
 
 .preparation-steps {
   display: flex;
-  justify-content: center;
   gap: 20px;
   padding-bottom: 24px;
   flex-wrap: wrap;
@@ -497,8 +497,11 @@ footer img {
 }
 
 .made-by {
-  padding: 40px clamp(10px, 9vw, 160px) 100px;
+  padding: 0 clamp(10px, 9vw, 160px) 100px;
   box-sizing: border-box;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .made-by-info {
