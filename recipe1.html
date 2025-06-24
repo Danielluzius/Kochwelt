@@ -1,137 +1,129 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rezept: Bruschetta (Tomate & Knoblauch)</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" href="./img/logo_small.png">
-    <!-- <script src="script.js"></script> -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="./img/logo_small.png" />
+    <script src="script.js"></script>
 </head>
 
 <body>
-    <header class="max-width">
-        <a href="index.html"><img class="logo" src="./img/logo.png" alt="Kochwelt Logo" /></a>
-        <a href="index.html"><img class="logo_small" src="./img/logo_small.png" alt="Kochwelt Logo"></a>
-
-        <nav>
-            <div onclick="toggleMenu()" class="menu-icon">
-                <div class="line"></div>
-                <div class="line"></div>
-                <div class="line"></div>
-            </div>
-            <div id="menuButton" class="menu">
-                <a href="index.html">Start</a>
-                <a href="recipe2.html">Rezept des Tages</a>
-                <a href="contact.html">Kontakt</a>
-                <a href="impressum.html">Impressum</a>
-            </div>
-        </nav>
+    <header>
+        <div class="container header-content">
+            <a href="index.html"><img class="logo" src="./img/logo.png" alt="Kochwelt Logo" /></a>
+            <a href="index.html"><img class="logo_small" src="./img/logo_small.png" alt="Kochwelt Logo" /></a>
+            <nav>
+                <div onclick="toggleMenu()" class="menu-icon">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+                <div id="menuButton" class="menu">
+                    <a href="index.html">Start</a>
+                    <a href="recipe2.html">Rezept des Tages</a>
+                    <a href="contact.html">Kontakt</a>
+                    <a href="impressum.html">Impressum</a>
+                </div>
+            </nav>
+        </div>
+        <div class="underline"></div>
     </header>
 
-    <div class="underline"></div>
+    <main>
+        <section class="hero-recipe">
+            <h2>Bruschetta (Tomate & Knoblauch)</h2>
+            <img src="./img/bruschetta.jpg" alt="Bruschetta" />
+            <div class="hero-recipe-steps">
+                <div class="hero-recipe-info">
+                    <img src="./img/icons/clock-regular.svg" alt="Uhr Icon" />
+                    <p>30 Min.</p>
+                </div>
+                <div class="hero-recipe-info">
+                    <img src="./img/icons/brain-solid.svg" alt="Brain Icon" />
+                    <p>Einfach</p>
+                </div>
+                <div class="hero-recipe-info">
+                    <img src="./img/icons/calendar-alt-regular.svg" alt="Kalender Icon" />
+                    <p>18.06.2020</p>
+                </div>
+            </div>
+        </section>
 
-    <section class="hero-recipe">
-        <h2>Bruschetta (Tomate & Knoblauch)</h2>
-        <img src="./img/bruschetta.jpg" alt="Bruschetta">
-        <div class="hero-recipe-steps">
-            <div class="hero-recipe-info">
-                <img src="./img/icons/clock-regular.svg" alt="Uhr Icon">
-                <p>30 Min.</p>
+        <article class="ingredients">
+            <div class="divining-line"></div>
+            <div class="ingredients-box">
+                <p>Zutaten für</p>
+                <div class="ingredients-button">
+                    <input value="4" min="1" max="50" type="number" />
+                    <button>Portionen</button>
+                </div>
             </div>
-            <div class="hero-recipe-info">
-                <img src="./img/icons/brain-solid.svg" alt="Brain Icon">
-                <p>Einfach</p>
-            </div>
-            <div class="hero-recipe-info">
-                <img src="./img/icons/calendar-alt-regular.svg" alt="Kalender Icon">
-                <p>18.06.2020</p>
-            </div>
-        </div>
-    </section>
+            <table class="ingredients-table">
+                <tr>
+                    <td class="line1 amount">12</td>
+                    <td class="line1 text">Ciabatta-Brotscheiben</td>
+                </tr>
+                <tr>
+                    <td class="line2 amount">8</td>
+                    <td class="line2 text">Tomaten</td>
+                </tr>
+                <tr>
+                    <td class="line1 amount">4</td>
+                    <td class="line1 text">Knoblauchzehen (oder 1 TL Knoblauchgranulat)</td>
+                </tr>
+                <tr>
+                    <td class="line2 amount">1/2</td>
+                    <td class="line2 text">Bund frisches Basilikum</td>
+                </tr>
+                <tr>
+                    <td class="line1 amount">6</td>
+                    <td class="line1 text">EL Olivenöl</td>
+                </tr>
+                <tr>
+                    <td class="line2 amount"></td>
+                    <td class="line2 text">Meersalz und Pfeffer (schwarz, frisch gemahlen)</td>
+                </tr>
+            </table>
+        </article>
 
-    <article class="ingredients">
-        <div class="divining-line"></div>
-        <div class="ingredients-box">
-            <p>Zutaten für</p>
-            <div class="ingredients-button">
-                <input value="4" min="1" max="50" type="number">
-                <button>Portionen</button>
+        <section class="preparation">
+            <h2>Zubereitung</h2>
+            <div class="preparation-steps">
+                <div class="preparation-info">
+                    <img src="./img/icons/clock-regular.svg" alt="Uhr Icon" />
+                    <p>ca. 20 Minuten</p>
+                </div>
+                <div class="preparation-info">
+                    <img src="./img/icons/clock-regular.svg" alt="Uhr Icon" />
+                    <p>Gesamtzeit ca. 30 Minuten</p>
+                </div>
             </div>
-        </div>
-        <table class="ingredients-table">
-            <tr>
-                <td class="line1 amount">12</td>
-                <td class="line1 text">Ciabatta-Brotscheiben</td>
-            </tr>
-            <tr>
-                <td class="line2 amount">8</td>
-                <td class="line2 text">Tomaten</td>
-            </tr>
-            <tr>
-                <td class="line1 amount">4</td>
-                <td class="line1 text">Knoblauchzehen (oder 1 TL Knoblauchgranulat)</td>
-            </tr>
-            <tr>
-                <td class="line2 amount">1/2</td>
-                <td class="line2 text">Bund frisches Basilikum</td>
-            </tr>
-            <tr>
-                <td class="line1 amount">6</td>
-                <td class="line1 text">EL Olivenöl</td>
-            </tr>
-            <tr>
-                <td class="line2 amount"></td>
-                <td class="line2 text">Meersalz und Pfeffer (schwarz, frisch gemahlen)</td>
-            </tr>
-        </table>
-    </article>
+            <p>
+                1. Die Brotscheiben werden mit 2 EL in einer Pfanne für max. 8 Minuten angeröstet, bis sie knusprig und
+                goldbraun sind.<br><br>
+                2. Die Tomaten entkernen und in kleine Würfel schneiden. Manche bevorzugen gehäutete Tomaten, andere mit
+                Haut.<br><br>
+                3. Knoblauch schälen, Basilikum zerrupfen.<br><br>
+                4. Tomaten mit Basilikum und optional Knoblauch mischen, mit Salz & Pfeffer abschmecken.<br><br>
+                5. Geröstete Brotscheiben mit Knoblauch einreiben, Olivenöl daraufgeben, Tomatenmasse verteilen.<br><br>
+                Tipp: Immer frisch belegen und direkt essen, sonst wird das Brot weich.
+            </p>
+        </section>
 
-    <section class="preparation">
-        <h2>Zubereitung</h2>
-        <div class="preparation-steps">
-            <div class="preparation-info">
-                <img src="./img/icons/clock-regular.svg" alt="Uhr Icon">
-                <p>ca. 20 Minuten</p>
+        <section class="made-by">
+            <h3>Rezept erstellt von</h3>
+            <div class="made-by-info">
+                <img src="./img/Recipe1 made by.jpg" alt="Rezept Ersteller" />
+                <p>Daniel Luzius</p>
             </div>
-            <div class="preparation-info">
-                <img src="./img/icons/clock-regular.svg" alt="Uhr Icon">
-                <p>Gesamtzeit ca. 30 Minuten</p>
-            </div>
-        </div>
-        <p>1. Die Brotscheiben werden mit 2 EL in einer Pfanne für max. 8 Minuten angeröstet, bis sie knusprig und
-            goldbraun sind. <br>
-            <br>
-            2. Die Tomaten entkernen, damit nicht zu viel Flüssigkeit auf das Brot kommt und in kleine Würfel schneiden.
-            Manche bevorzugen gehäutete Tomaten, andere belegen ihre Bruschetta mit Tomatenstückchen mit Haut.<br>
-            <br>
-            3. Knoblauchzehen schälen, Basilikumblätter grob mit den Händen zerrupfen.<br>
-            <br>
-            4. Tomatenstücke mit Basilikum und, wer mag, einem Teil des in kleine Stückchen geschnittenen Knoblauchs
-            vermischen, mit Salz und Pfeffer abschmecken.<br>
-            <br>
-            5. Die angerösteten, warmen Brotscheiben mit den längs halbierten Knoblauchzehen einreiben und mit Olivenöl
-            beträufeln. Danach großzügig mit Tomatenmasse belegen und gegebenenfalls nochmal mit einigen Spritzern
-            Olivenöl beträufeln.<br>
-            <br>
-            Unser Tipp: Bruschetta sollte immer frisch belegt, serviert und gegessen werden, weil ansonsten die
-            Flüssigkeit der Tomaten unter Umständen das Brot aufweichen. Bruschetta ist Fingerfood: Einfach in die Hand
-            nehmen und abbeißen, statt sich mit Messer und Gabel abzumühen.
-        </p>
-    </section>
-
-    <section class="made-by">
-        <h3>Rezept erstellt von</h3>
-        <div class="made-by-info">
-            <img src="./img/Recipe1 made by.jpg" alt="Rezept Ersteller">
-            <p>Daniel Luzius</p>
-        </div>
-
-    </section>
+        </section>
+    </main>
 
     <footer>
-        <div class="max-width-footer">
+        <div class="container footer-wrapper">
             <img src="./img/logo_small_white.PNG" alt="Kochwelt Logo" />
             <div class="footer-datenschutz-kochwel-rights">
                 <p>&copy; 2025 Kochwelt. Alle Rechte vorbehalten.</p>
@@ -139,7 +131,6 @@
             </div>
         </div>
     </footer>
-
 </body>
 
 </html>
