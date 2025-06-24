@@ -19,9 +19,12 @@ const ideas = [
 let currentIdea = 0;
 
 function showIdea(index) {
-  document.getElementById("idea-title").textContent = ideas[index].title;
+  const titleEl = document.getElementById("idea-title");
+  const contentEl = document.getElementById("idea-content");
+  if (!titleEl || !contentEl) return; // Abbrechen, wenn die Elemente fehlen
 
-  document.getElementById("idea-content").innerHTML = `
+  titleEl.textContent = ideas[index].title;
+  contentEl.innerHTML = `
     <p>${ideas[index].text}</p>
     <img src="${ideas[index].image}" alt="">
   `;
