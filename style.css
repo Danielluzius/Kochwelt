@@ -236,6 +236,9 @@ footer p {
   font-weight: 300;
   font-size: 17px;
   margin: 0;
+}
+
+footer a {
   text-decoration: underline;
 }
 
