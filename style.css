@@ -24,7 +24,7 @@ main {
 
 /* Schrift */
 h2 {
-  font-size: 28px;
+  font-size: clamp(16px, 6vw, 28px);
   font-weight: bold;
   margin: 0;
 }
