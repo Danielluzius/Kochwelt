@@ -523,6 +523,15 @@ footer img {
   border-radius: 50%;
 }
 
+/* Impressum Data Protection Kontakt */
+.impressum-data-protection-container {
+  background-color: rgb(239, 239, 239);
+  border-radius: 16px;
+  padding: 30px;
+  box-sizing: border-box;
+  margin: 24px 0;
+}
+
 @media (max-width: 820px) {
   .hero-recipe {
     align-items: center;
