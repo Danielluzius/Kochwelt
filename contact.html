@@ -1,66 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kochwelt</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="icon" type="image/png" href="./img/logo_small.png" />
-    <script src="script.js"></script>
-  </head>
 
-  <body>
-    <header class="max-width">
-      <a href="index.html"
-        ><img class="logo" src="./img/logo.png" alt="Kochwelt Logo"
-      /></a>
-      <a href="index.html"
-        ><img class="logo_small" src="./img/logo_small.png" alt="Kochwelt Logo"
-      /></a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kochwelt: Kontakt</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="./img/logo_small.png" />
+  <script src="script.js" defer></script>
+</head>
 
-      <nav>
-        <div onclick="toggleMenu()" class="menu-icon">
-          <div class="line"></div>
-          <div class="line"></div>
-          <div class="line"></div>
-        </div>
-        <div id="menuButton" class="menu">
-          <a href="index.html">Start</a>
-          <a href="recipe2.html">Rezept des Tages</a>
-          <a href="contact.html">Kontakt</a>
-          <a href="impressum.html">Impressum</a>
-        </div>
-      </nav>
-    </header>
+<body>
+  <header class="max-width">
+    <a href="index.html"><img class="logo" src="./img/logo.png" alt="Kochwelt Logo" /></a>
+    <a href="index.html"><img class="logo_small" src="./img/logo_small.png" alt="Kochwelt Logo" /></a>
 
-    <div class="underline"></div>
-
-    <section class="formular-section">
-      <div class="formular-container">
-        <h2>Kontaktieren Sie uns</h2>
-        <form action="https://formspree.io/f/myzjppak" method="POST">
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name" required />
-
-          <label for="email">E-Mail:</label>
-          <input type="email" id="email" name="email" required />
-
-          <label for="message">Nachricht:</label>
-          <textarea id="message" name="message" rows="4" required></textarea>
-
-          <button type="submit">Absenden</button>
-        </form>
+    <nav>
+      <div onclick="toggleMenu()" class="menu-icon">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
       </div>
-    </section>
-
-    <footer>
-      <div class="max-width-footer">
-        <img src="./img/logo_small_white.PNG" alt="Kochwelt Logo" />
-        <div class="footer-datenschutz-kochwel-rights">
-          <p>&copy; 2025 Kochwelt. Alle Rechte vorbehalten.</p>
-          <a class="datenschutz" href="datenschutz.html">Datenschutz</a>
-        </div>
+      <div id="menuButton" class="menu">
+        <a href="index.html">Start</a>
+        <a href="recipe2.html">Rezept des Tages</a>
+        <a href="contact.html">Kontakt</a>
+        <a href="impressum.html">Impressum</a>
       </div>
-    </footer>
-  </body>
+    </nav>
+  </header>
+
+  <div class="underline"></div>
+
+  <section class="formular-section">
+    <div class="formular-container">
+      <h2>Kontaktieren Sie uns</h2>
+      <form action="https://formspree.io/f/myzjppak" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">E-Mail:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Nachricht:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <!-- <input type="hidden" name="return" value="http://127.0.0.1:5500/index.html?sent=1"> -->
+
+        <button type="submit">Absenden</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="max-width-footer">
+      <img src="./img/logo_small_white.PNG" alt="Kochwelt Logo" />
+      <div class="footer-datenschutz-kochwel-rights">
+        <p>&copy; 2025 Kochwelt. Alle Rechte vorbehalten.</p>
+        <a class="datenschutz" href="datenschutz.html">Datenschutz</a>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>
