@@ -586,6 +586,7 @@ footer img {
     border: 1px solid #ccc;
     box-sizing: border-box;
     margin-bottom: 0;
+    font-family: raleway-regular;
 }
 .formular-container label {
     text-align: left;
