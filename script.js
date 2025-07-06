@@ -71,39 +71,3 @@ document.addEventListener('DOMContentLoaded', () => {
 if (new URLSearchParams(window.location.search).get('sent') === '1') {
   alert('Danke für deine Nachricht! 🙏 Wir melden uns bald bei dir.');
 }
-
-// Portionsrechner
-
-let originalAmounts = [];
-
-function saveOriginalAmounts() {
-  let amountCells = document.querySelectorAll('.ingredients-table .amount');
-  for (let i = 0; i < amountCells.length; i++) {
-    originalAmounts[i] = amountCells[i].innerText;
-  }
-}
-
-function adjustPortions() {
-  let inputField = document.querySelector('.ingredients-button input');
-  let newPortions = inputField.value;
-  let basePortions = 4;
-  let factor = newPortions / basePortions;
-
-  let amountCells = document.querySelectorAll('.ingredients-table .amount');
-
-  for (let i = 0; i < amountCells.length; i++) {
-    let originalText = originalAmounts[i];
-    if (originalText === '') {
-      continue;
-    }
-
-    let number = originalText.replace(',', '.');
-    let result = number * factor;
-
-    if (result % 1 === 0) {
-      amountCells[i].innerText = result;
-    } else {
-      amountCells[i].innerText = result.toFixed(2).replace('.', ',');
-    }
-  }
-}
