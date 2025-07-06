@@ -10,7 +10,9 @@
     <script src="script.js" defer></script>
 </head>
 
-<body>
+<body onload="saveOriginalAmounts()">
+
+
     <header>
         <div class="container header-content">
             <a href="index.html"><img class="logo" src="./img/logo.png" alt="Kochwelt Logo" /></a>
@@ -58,7 +60,7 @@
                 <p>Zutaten für</p>
                 <div class="ingredients-button">
                     <input value="4" min="1" max="50" type="number" />
-                    <button>Portionen</button>
+                    <button onclick="adjustPortions()">Portions</button>
                 </div>
             </div>
             <table class="ingredients-table">
@@ -75,7 +77,7 @@
                     <td class="line1 text">Knoblauchzehen (oder 1 TL Knoblauchgranulat)</td>
                 </tr>
                 <tr>
-                    <td class="line2 amount">1/2</td>
+                    <td class="line2 amount">0,5</td>
                     <td class="line2 text">Bund frisches Basilikum</td>
                 </tr>
                 <tr>

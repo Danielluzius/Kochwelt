@@ -10,7 +10,7 @@
     <script src="script.js" defer></script>
 </head>
 
-<body>
+<body onload="saveOriginalAmounts()">
     <header>
         <div class="container header-content">
             <a href="index.html"><img class="logo" src="./img/logo.png" alt="Kochwelt Logo" /></a>
@@ -60,7 +60,7 @@
                 <p>Zutaten für</p>
                 <div class="ingredients-button">
                     <input value="1" min="1" max="50" type="number">
-                    <button>Portionen</button>
+                    <button onclick="adjustPortions()">Portions</button>
                 </div>
             </div>
             <table class="ingredients-table">
